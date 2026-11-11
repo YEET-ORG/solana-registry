@@ -5,15 +5,15 @@
  * 1. DeFiLlama Solana Protocols (real-time TVL, audits, official URLs)
  * 2. Phantom Blocklist & Whitelist (Solana drainers & phishing domains)
  * 3. ScamSniffer Threat Database (Solana-targeted phishing hostnames)
- * 4. Curated Base Solana Apps (Jupiter, Pump.fun, Magic Eden, Tensor, GMGN, etc.)
+ * 4. Curated Solana Ecosystem Registry (NFTs, Memes, Tools, DEXes)
  *
- * Emits to dist/:
+ * Emits:
  * - verified-apps.json
  * - blocked-domains.json
  * - registry-metadata.json
  */
 
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 
 interface VerifiedAppSocials {
@@ -57,12 +57,6 @@ function extractCanonicalHost(domainOrUrl: string): string {
   return hostOnly.replace(/^www\./i, "");
 }
 
-function getRootDomain(host: string): string {
-  const parts = host.split(".");
-  if (parts.length <= 2) return host;
-  return parts.slice(-2).join(".");
-}
-
 async function fetchWithTimeout(url: string, timeoutMs = 15000): Promise<Response> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -79,18 +73,20 @@ async function fetchWithTimeout(url: string, timeoutMs = 15000): Promise<Respons
 async function main() {
   console.log("🚀 Starting Solana Registry Synchronization...");
 
-  const distDir = resolve(process.cwd(), "dist");
-  if (!existsSync(distDir)) {
-    mkdirSync(distDir, { recursive: true });
-  }
-
-  const existingAppsPath = resolve(distDir, "verified-apps.json");
+  const dataDir = resolve(process.cwd(), "src/features/browser/data");
+  const existingAppsPath = resolve(dataDir, "verified-apps.json");
   const existingApps: VerifiedApp[] = existsSync(existingAppsPath)
     ? JSON.parse(readFileSync(existingAppsPath, "utf-8"))
     : [];
 
   const appMap = new Map<string, VerifiedApp>();
   const rootDomainMap = new Map<string, VerifiedApp>();
+
+  function getRootDomain(host: string): string {
+    const parts = host.split(".");
+    if (parts.length <= 2) return host;
+    return parts.slice(-2).join(".");
+  }
 
   for (const app of existingApps) {
     const host = extractCanonicalHost(app.verifiedDomain);
@@ -100,9 +96,11 @@ async function main() {
     }
     rootDomainMap.set(getRootDomain(host), app);
   }
-  console.log(`📦 Loaded ${existingApps.length} base apps`);
+  console.log(`📦 Loaded ${existingApps.length} base curated apps`);
 
+  // ==========================================
   // 1. Fetch & Ingest DeFiLlama Protocols
+  // ==========================================
   console.log("📡 Fetching DeFiLlama protocols...");
   try {
     const res = await fetchWithTimeout("https://api.llama.fi/protocols");
@@ -113,7 +111,7 @@ async function main() {
           p.category !== "CEX" &&
           p.chainTvls &&
           typeof p.chainTvls.Solana === "number" &&
-          p.chainTvls.Solana > 200000 &&
+          p.chainTvls.Solana > 200000 && // Filter for active protocols > $200k TVL
           p.url
       );
 
@@ -129,10 +127,15 @@ async function main() {
         const rootDomain = getRootDomain(canonicalHost);
         const existing = appMap.get(canonicalHost) || rootDomainMap.get(rootDomain);
         if (existing) {
+          // Enrich existing with latest audit count or slug
           if (!existing.metricsSourceId?.defillamaSlug) {
-            existing.metricsSourceId = { defillamaSlug: p.slug };
+            appMap.set(canonicalHost, {
+              ...existing,
+              metricsSourceId: { defillamaSlug: p.slug },
+            });
           }
         } else {
+          // Map category
           let category: "DeFi" | "Trading" = "DeFi";
           const catLower = (p.category || "").toLowerCase();
           if (catLower.includes("derivative") || catLower.includes("perpetual") || catLower.includes("options")) {
@@ -166,20 +169,21 @@ async function main() {
             similarAppIds: ["jupiter", "kamino", "raydium"],
           };
           appMap.set(canonicalHost, newApp);
-          rootDomainMap.set(rootDomain, newApp);
           addedFromDefiLlama++;
         }
       }
       console.log(`✅ Integrated ${addedFromDefiLlama} new verified Solana protocols from DeFiLlama`);
     }
   } catch (err) {
-    console.warn("⚠️ Failed to fetch DeFiLlama protocols:", err);
+    console.warn("⚠️ Failed to fetch DeFiLlama protocols, continuing with curated baseline:", err);
   }
 
   const finalApps = Array.from(new Map(Array.from(appMap.values()).map((a) => [a.id, a])).values());
   console.log(`🌟 Total verified apps compiled: ${finalApps.length}`);
 
+  // ==========================================
   // 2. Fetch & Ingest Phantom Blocklist + Whitelist
+  // ==========================================
   console.log("🛡️ Fetching Phantom Blocklist & Whitelist...");
   const blockedSet = new Set<string>();
   const whitelistSet = new Set<string>();
@@ -192,7 +196,7 @@ async function main() {
       const text = await whiteRes.text();
       for (const line of text.split("\n")) {
         const match = line.match(/^\s*-\s*url:\s*(.+)$/);
-        if (match) {
+        if (match && match[1]) {
           const raw = match[1].trim().replace(/^["\x27]|["\x27]$/g, "");
           const clean = extractCanonicalHost(raw.replace(/^\*\./, ""));
           if (clean) whitelistSet.add(clean);
@@ -208,7 +212,7 @@ async function main() {
       const text = await blockRes.text();
       for (const line of text.split("\n")) {
         const match = line.match(/^\s*-\s*url:\s*(.+)$/);
-        if (match) {
+        if (match && match[1]) {
           const raw = match[1].trim().replace(/^["\x27]|["\x27]$/g, "");
           const clean = extractCanonicalHost(raw);
           if (clean && !whitelistSet.has(clean) && !appMap.has(clean)) {
@@ -219,10 +223,12 @@ async function main() {
       console.log(`🚫 Loaded ${blockedSet.size} malicious domains from Phantom`);
     }
   } catch (err) {
-    console.warn("⚠️ Failed to fetch Phantom lists:", err);
+    console.warn("⚠️ Failed to fetch Phantom lists, using fallback:", err);
   }
 
+  // ==========================================
   // 3. Fetch & Ingest ScamSniffer Solana Threats
+  // ==========================================
   console.log("🚨 Fetching ScamSniffer Threat Database...");
   try {
     const scamRes = await fetchWithTimeout(
@@ -258,7 +264,9 @@ async function main() {
         if (!clean) continue;
         if (whitelistSet.has(clean) || appMap.has(clean)) continue;
 
-        if (solanaKeywords.some((k) => clean.includes(k))) {
+        // Check if domain is Solana-targeted
+        const isSolTargeted = solanaKeywords.some((k) => clean.includes(k));
+        if (isSolTargeted) {
           blockedSet.add(clean);
           addedFromScamSniffer++;
         }
@@ -269,26 +277,33 @@ async function main() {
     console.warn("⚠️ Failed to fetch ScamSniffer database:", err);
   }
 
-  // Explicit fixtures
-  blockedSet.add("evil-drainer.xyz");
-  blockedSet.add("raydlum.io");
-  blockedSet.add("phahtom.commetapiex-ciaim.com");
-  blockedSet.add("jupiter-airdrop-claim.cc");
-  blockedSet.add("phantom-claim-sol.net");
-  blockedSet.add("pumpfun-meme.com");
+  // Add explicit high-profile sample test drainers for deterministic verification
+  const knownMaliciousFixtures = [
+    "evil-drainer.xyz",
+    "raydlum.io",
+    "phahtom.commetapiex-ciaim.com",
+    "jupiter-airdrop-claim.cc",
+    "phantom-claim-sol.net",
+    "pumpfun-meme.com",
+  ];
+  for (const fixture of knownMaliciousFixtures) {
+    blockedSet.add(fixture);
+  }
 
   const sortedBlockedDomains = Array.from(blockedSet).sort();
   console.log(`🛡️ Total unique blocked domains compiled: ${sortedBlockedDomains.length}`);
 
+  // ==========================================
   // 4. Write Files
+  // ==========================================
   writeFileSync(existingAppsPath, JSON.stringify(finalApps, null, 2) + "\n", "utf-8");
   console.log(`💾 Saved verified apps to ${existingAppsPath}`);
 
-  const blockedPath = resolve(distDir, "blocked-domains.json");
+  const blockedPath = resolve(dataDir, "blocked-domains.json");
   writeFileSync(blockedPath, JSON.stringify(sortedBlockedDomains, null, 2) + "\n", "utf-8");
   console.log(`💾 Saved blocked domains to ${blockedPath}`);
 
-  const metadataPath = resolve(distDir, "registry-metadata.json");
+  const metadataPath = resolve(dataDir, "registry-metadata.json");
   const metadata = {
     version: "2.0.0",
     lastUpdated: new Date().toISOString(),
