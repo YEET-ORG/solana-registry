@@ -1,0 +1,22 @@
+{
+  "name": "@yeet-org/solana-registry",
+  "version": "1.0.0",
+  "description": "Unified verified dApps and threat blocklist for Solana wallets",
+  "main": "dist/verified-apps.json",
+  "scripts": {
+    "sync": "bun scripts/sync.ts",
+    "build": "bun scripts/sync.ts"
+  },
+  "keywords": [
+    "solana",
+    "wallet",
+    "security",
+    "blocklist",
+    "verified-apps",
+    "defillama",
+    "phantom",
+    "scamsniffer"
+  ],
+  "author": "YEET-ORG",
+  "license": "MIT"
+}

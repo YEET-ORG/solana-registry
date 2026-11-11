@@ -1,0 +1,5912 @@
+[
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "verifiedDomain": "jup.ag",
+    "icon": "https://jup.ag/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "DEX",
+      "Aggregator",
+      "Swap",
+      "Perps"
+    ],
+    "shortDescription": "The best decentralized liquidity platform, largest DAO and best community in crypto.",
+    "fullAbout": "Jupiter is Solana's key liquidity aggregator, offering the best route discovery and execution across all Solana DEXs. It powers token swaps, perpetual futures trading, dollar-cost averaging (DCA), limit orders, and value-accruing bridge routing with zero platform fees.",
+    "socials": {
+      "website": "https://jup.ag",
+      "twitter": "https://x.com/JupiterExchange",
+      "discord": "https://discord.gg/jup",
+      "telegram": "https://t.me/JupiterExchange"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@JupiterExchange",
+      "dns": "jup.ag (Cloudflare DNSSEC)",
+      "auditedBy": [
+        "OtterSec",
+        "Neodyme"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "jupiter"
+    },
+    "similarAppIds": [
+      "raydium",
+      "orca",
+      "meteora",
+      "drift"
+    ]
+  },
+  {
+    "id": "raydium",
+    "name": "Raydium",
+    "verifiedDomain": "raydium.io",
+    "icon": "https://raydium.io/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "AMM",
+      "DEX",
+      "Liquidity",
+      "Yield"
+    ],
+    "shortDescription": "An on-chain order book AMM powering the evolution of DeFi on Solana.",
+    "fullAbout": "Raydium is an automated market maker (AMM) built on the Solana blockchain. It leverages on-chain central limit order books to enable lightning-fast trades, shared liquidity, and high-yield farming opportunities for liquidity providers across the ecosystem.",
+    "socials": {
+      "website": "https://raydium.io",
+      "twitter": "https://x.com/RaydiumProtocol",
+      "discord": "https://discord.gg/raydium",
+      "telegram": "https://t.me/raydiumprotocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@RaydiumProtocol",
+      "dns": "raydium.io (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security",
+        "Halborn"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "raydium"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "orca",
+      "meteora",
+      "kamino"
+    ]
+  },
+  {
+    "id": "orca",
+    "name": "Orca",
+    "verifiedDomain": "orca.so",
+    "icon": "https://orca.so/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "AMM",
+      "Concentrated Liquidity",
+      "Whirlpools",
+      "DEX"
+    ],
+    "shortDescription": "The most user-friendly concentrated liquidity AMM on Solana.",
+    "fullAbout": "Orca provides concentrated liquidity through Whirlpools, allowing liquidity providers to allocate capital within specific price ranges for dramatically higher capital efficiency, minimal slippage, and sustainable fee yields on Solana.",
+    "socials": {
+      "website": "https://orca.so",
+      "twitter": "https://x.com/orca_so",
+      "discord": "https://discord.gg/orca-so",
+      "telegram": "https://t.me/orca_so"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@orca_so",
+      "dns": "orca.so (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security",
+        "Neodyme"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "orca"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "raydium",
+      "meteora",
+      "kamino"
+    ]
+  },
+  {
+    "id": "drift",
+    "name": "Drift",
+    "verifiedDomain": "drift.trade",
+    "icon": "https://drift.trade/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Perps",
+      "DEX",
+      "Lending",
+      "Borrowing"
+    ],
+    "shortDescription": "Decentralized perpetual futures and cross-collateral trading on Solana.",
+    "fullAbout": "Drift Protocol is a decentralized exchange on Solana offering up to 20x leverage on perpetual contracts, spot trading, borrowing and lending, and automated yield strategies backed by dynamic automated market makers and order book liquidity.",
+    "socials": {
+      "website": "https://app.drift.trade",
+      "twitter": "https://x.com/DriftProtocol",
+      "discord": "https://discord.gg/driftprotocol",
+      "telegram": "https://t.me/driftprotocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@DriftProtocol",
+      "dns": "drift.trade (DNSSEC)",
+      "auditedBy": [
+        "Trail of Bits",
+        "Zellic"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "drift"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "zeta",
+      "flash",
+      "mango"
+    ]
+  },
+  {
+    "id": "kamino",
+    "name": "Kamino",
+    "verifiedDomain": "kamino.finance",
+    "icon": "https://app.kamino.finance/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Borrowing",
+      "Multiply",
+      "Vaults"
+    ],
+    "shortDescription": "Solana's premier borrowing, lending, and automated liquidity protocol.",
+    "fullAbout": "Kamino Finance unites lending, borrowing, and automated market maker vaults into a single unified DeFi suite. With Kamino Lend, Multiply leverage strategies, and automated concentrated liquidity vaults, Kamino is one of Solana's foundational financial layers.",
+    "socials": {
+      "website": "https://app.kamino.finance",
+      "twitter": "https://x.com/KaminoFinance",
+      "discord": "https://discord.gg/kaminofinance",
+      "telegram": "https://t.me/KaminoFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@KaminoFinance",
+      "dns": "kamino.finance (DNSSEC)",
+      "auditedBy": [
+        "OtterSec",
+        "Halborn"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "kamino-lend"
+    },
+    "similarAppIds": [
+      "save",
+      "marginfi",
+      "marinade",
+      "jito"
+    ]
+  },
+  {
+    "id": "meteora",
+    "name": "Meteora",
+    "verifiedDomain": "meteora.ag",
+    "icon": "https://meteora.ag/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "DLMM",
+      "Liquidity",
+      "AMM",
+      "Dynamic Pools"
+    ],
+    "shortDescription": "Dynamic liquidity market maker pools and sustainable yield on Solana.",
+    "fullAbout": "Meteora builds dynamic liquidity infrastructure including DLMM (Dynamic Liquidity Market Maker) pools, dynamic AMM pools, and multi-token yield vaults, bringing flexible fee models and deep liquidity for tokens across Solana.",
+    "socials": {
+      "website": "https://meteora.ag",
+      "twitter": "https://x.com/MeteoraAG",
+      "discord": "https://discord.gg/meteora",
+      "telegram": "https://t.me/MeteoraAG"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MeteoraAG",
+      "dns": "meteora.ag (DNSSEC)",
+      "auditedBy": [
+        "Offspec",
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "meteora"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "orca",
+      "raydium",
+      "kamino"
+    ]
+  },
+  {
+    "id": "marinade",
+    "name": "Marinade",
+    "verifiedDomain": "marinade.finance",
+    "icon": "https://marinade.finance/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Native Staking",
+      "mSOL",
+      "Yield"
+    ],
+    "shortDescription": "Liquid and native staking optimizer with automated validator delegation.",
+    "fullAbout": "Marinade Finance optimizes Solana staking across 100+ top-performing validators. Users can stake natively with zero smart contract risk or stake liquidly to receive mSOL, earning compounded staking rewards while participating in DeFi.",
+    "socials": {
+      "website": "https://marinade.finance",
+      "twitter": "https://x.com/MarinadeFinance",
+      "discord": "https://discord.gg/marinade",
+      "telegram": "https://t.me/marinadefinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MarinadeFinance",
+      "dns": "marinade.finance (DNSSEC)",
+      "auditedBy": [
+        "Neodyme",
+        "Ackee Blockchain"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "marinade-finance"
+    },
+    "similarAppIds": [
+      "jito",
+      "sanctum",
+      "kamino",
+      "save"
+    ]
+  },
+  {
+    "id": "jito",
+    "name": "Jito",
+    "verifiedDomain": "jito.network",
+    "icon": "https://jito.network/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "MEV",
+      "JitoSOL",
+      "Staking"
+    ],
+    "shortDescription": "Liquid staking protocol powered by MEV rewards on Solana.",
+    "fullAbout": "Jito Network delivers MEV-boosted liquid staking for Solana. Holders of JitoSOL earn both standard protocol staking rewards and additional yield from MEV extraction distributed by validators running the open-source Jito-Solana client.",
+    "socials": {
+      "website": "https://jito.network",
+      "twitter": "https://x.com/jito_sol",
+      "discord": "https://discord.gg/jito",
+      "telegram": "https://t.me/jito_network"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@jito_sol",
+      "dns": "jito.network (DNSSEC)",
+      "auditedBy": [
+        "Neodyme"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "jito"
+    },
+    "similarAppIds": [
+      "marinade",
+      "sanctum",
+      "kamino",
+      "save"
+    ]
+  },
+  {
+    "id": "sanctum",
+    "name": "Sanctum",
+    "verifiedDomain": "sanctum.so",
+    "icon": "https://app.sanctum.so/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "LST",
+      "Liquid Staking",
+      "Liquidity",
+      "Infinity"
+    ],
+    "shortDescription": "Unified liquidity layer empowering personalized Liquid Staking Tokens.",
+    "fullAbout": "Sanctum enables anyone to mint and trade purpose-built Liquid Staking Tokens (LSTs). Powered by the Infinity multi-LST liquidity pool and Reserve router, Sanctum lets users swap between any LST on Solana instantaneously with near-zero slippage.",
+    "socials": {
+      "website": "https://app.sanctum.so",
+      "twitter": "https://x.com/sanctumso",
+      "discord": "https://discord.gg/sanctum",
+      "telegram": "https://t.me/sanctumso"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@sanctumso",
+      "dns": "sanctum.so (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "sanctum"
+    },
+    "similarAppIds": [
+      "jito",
+      "marinade",
+      "kamino",
+      "jupiter"
+    ]
+  },
+  {
+    "id": "save",
+    "name": "Save",
+    "verifiedDomain": "save.finance",
+    "icon": "https://save.finance/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Borrowing",
+      "Money Market",
+      "Solend"
+    ],
+    "shortDescription": "Decentralized protocol for lending, borrowing, and isolated margin.",
+    "fullAbout": "Save (formerly Solend) is an autonomous algorithmic money market on Solana. It offers main pools for blue-chip assets and isolated lending pools for emerging tokens, allowing users to earn interest on deposits and access capital against collateral.",
+    "socials": {
+      "website": "https://save.finance",
+      "twitter": "https://x.com/save_finance",
+      "discord": "https://discord.gg/savefinance",
+      "telegram": "https://t.me/save_finance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@save_finance",
+      "dns": "save.finance (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solend"
+    },
+    "similarAppIds": [
+      "kamino",
+      "marginfi",
+      "drift",
+      "marinade"
+    ]
+  },
+  {
+    "id": "marginfi",
+    "name": "MarginFi",
+    "verifiedDomain": "marginfi.com",
+    "icon": "https://app.marginfi.com/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Borrowing",
+      "Risk Engine",
+      "YBX"
+    ],
+    "shortDescription": "Decentralized lending protocol prioritizing institutional-grade risk management.",
+    "fullAbout": "MarginFi is a decentralized liquidity protocol with a granular dynamic risk engine. It enables users to deposit collateral, borrow assets across multiple tiers, and participate in Solana ecosystem yield with real-time health-factor monitoring.",
+    "socials": {
+      "website": "https://app.marginfi.com",
+      "twitter": "https://x.com/marginfi",
+      "discord": "https://discord.gg/mrgn",
+      "telegram": "https://t.me/marginfi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@marginfi",
+      "dns": "marginfi.com (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "marginfi"
+    },
+    "similarAppIds": [
+      "kamino",
+      "save",
+      "drift",
+      "jito"
+    ]
+  },
+  {
+    "id": "lifinity",
+    "name": "Lifinity",
+    "verifiedDomain": "lifinity.io",
+    "icon": "https://lifinity.io/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "AMM",
+      "Proactive Market Maker",
+      "Oracle",
+      "DEX"
+    ],
+    "shortDescription": "Proactive market maker DEX utilizing Pyth oracles to reduce impermanent loss.",
+    "fullAbout": "Lifinity is an innovative proactive market maker on Solana that relies on Pyth Network oracles to concentrate liquidity around fair market prices and actively rebalance pools, substantially reducing impermanent loss for liquidity providers.",
+    "socials": {
+      "website": "https://lifinity.io",
+      "twitter": "https://x.com/Lifinity_io",
+      "discord": "https://discord.gg/lifinity",
+      "telegram": "https://t.me/lifinity"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Lifinity_io",
+      "dns": "lifinity.io (DNSSEC)",
+      "auditedBy": [
+        "Sec3"
+      ],
+      "verifiedDate": "2024-02-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "lifinity"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "orca",
+      "raydium",
+      "meteora"
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "verifiedDomain": "phoenix.trade",
+    "icon": "https://phoenix.trade/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Order Book",
+      "DEX",
+      "Spot",
+      "Ellipsis"
+    ],
+    "shortDescription": "Fully on-chain central limit order book by Ellipsis Labs.",
+    "fullAbout": "Phoenix is a decentralized central limit order book built from scratch for Solana by Ellipsis Labs. It operates instantaneously without off-chain cranks, providing instant settlement and institutional-grade trading mechanics.",
+    "socials": {
+      "website": "https://phoenix.trade",
+      "twitter": "https://x.com/ellipsis_labs",
+      "discord": "https://discord.gg/ellipsislabs",
+      "telegram": "https://t.me/phoenix_trade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ellipsis_labs",
+      "dns": "phoenix.trade (DNSSEC)",
+      "auditedBy": [
+        "Trail of Bits"
+      ],
+      "verifiedDate": "2024-02-10",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "phoenix"
+    },
+    "similarAppIds": [
+      "drift",
+      "jupiter",
+      "zeta",
+      "flash"
+    ]
+  },
+  {
+    "id": "zeta",
+    "name": "Zeta Markets",
+    "verifiedDomain": "zeta.markets",
+    "icon": "https://dex.zeta.markets/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Perps",
+      "DEX",
+      "Futures",
+      "Leverage"
+    ],
+    "shortDescription": "Under-collateralized crypto perps and futures DEX on Solana.",
+    "fullAbout": "Zeta Markets offers sub-second perpetual futures trading on Solana with cross-margin leverage, portfolio risk management, and order book execution designed for active retail and institutional traders.",
+    "socials": {
+      "website": "https://dex.zeta.markets",
+      "twitter": "https://x.com/ZetaMarkets",
+      "discord": "https://discord.gg/zetamarkets",
+      "telegram": "https://t.me/zetamarkets"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ZetaMarkets",
+      "dns": "zeta.markets (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security"
+      ],
+      "verifiedDate": "2024-02-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "zeta"
+    },
+    "similarAppIds": [
+      "drift",
+      "flash",
+      "phoenix",
+      "mango"
+    ]
+  },
+  {
+    "id": "mango",
+    "name": "Mango Markets",
+    "verifiedDomain": "mango.markets",
+    "icon": "https://mango.markets/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Cross Margin",
+      "Spot",
+      "Perps",
+      "Lending"
+    ],
+    "shortDescription": "Decentralized cross-margin trading, lending, and perps terminal.",
+    "fullAbout": "Mango Markets provides a single cross-margin account for trading spot tokens and perpetual contracts, while earning interest on collateral and borrowing assets with decentralized risk parameters.",
+    "socials": {
+      "website": "https://mango.markets",
+      "twitter": "https://x.com/mangomarkets",
+      "discord": "https://discord.gg/mangomarkets",
+      "telegram": "https://t.me/mangomarkets"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@mangomarkets",
+      "dns": "mango.markets (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "mango-markets"
+    },
+    "similarAppIds": [
+      "drift",
+      "zeta",
+      "save",
+      "kamino"
+    ]
+  },
+  {
+    "id": "flash",
+    "name": "Flash Trade",
+    "verifiedDomain": "flash.trade",
+    "icon": "https://flash.trade/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Perps",
+      "Zero Slippage",
+      "Leverage",
+      "Commodities"
+    ],
+    "shortDescription": "Next-gen perpetual and asset-backed trading platform on Solana.",
+    "fullAbout": "Flash Trade is a high-speed decentralized perpetual exchange on Solana offering up to 100x leverage with zero price impact, pooled liquidity pools, dynamic funding rates, and multi-asset collateral options.",
+    "socials": {
+      "website": "https://flash.trade",
+      "twitter": "https://x.com/FlashTrade_",
+      "discord": "https://discord.gg/flashtrade",
+      "telegram": "https://t.me/flashtrade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@FlashTrade_",
+      "dns": "flash.trade (DNSSEC)",
+      "auditedBy": [
+        "Zellic"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "flash-trade"
+    },
+    "similarAppIds": [
+      "drift",
+      "zeta",
+      "jupiter",
+      "phoenix"
+    ]
+  },
+  {
+    "id": "parcl",
+    "name": "Parcl",
+    "verifiedDomain": "parcl.co",
+    "icon": "https://app.parcl.co/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Real Estate",
+      "Perps",
+      "Synthetics",
+      "Indexes"
+    ],
+    "shortDescription": "Decentralized real estate perpetual exchange and city indexes.",
+    "fullAbout": "Parcl introduces synthetic real estate perpetual markets to DeFi. Traders can speculate long or short on metropolitan residential real estate markets like New York, London, and Miami with continuous index pricing.",
+    "socials": {
+      "website": "https://app.parcl.co",
+      "twitter": "https://x.com/Parcl",
+      "discord": "https://discord.gg/parcl",
+      "telegram": "https://t.me/parcl_co"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Parcl",
+      "dns": "parcl.co (DNSSEC)",
+      "auditedBy": [
+        "Trail of Bits"
+      ],
+      "verifiedDate": "2024-02-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "parcl"
+    },
+    "similarAppIds": [
+      "drift",
+      "jupiter",
+      "zeta",
+      "flash"
+    ]
+  },
+  {
+    "id": "backpack",
+    "name": "Backpack",
+    "verifiedDomain": "backpack.exchange",
+    "icon": "https://backpack.exchange/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Exchange",
+      "Spot",
+      "Perps",
+      "Mad Lads"
+    ],
+    "shortDescription": "Next-generation crypto exchange and ecosystem platform for Solana.",
+    "fullAbout": "Backpack Exchange is a high-performance crypto trading venue featuring zero-knowledge proof of reserves, institutional custody, deep order book liquidity, and seamless integration with the Backpack ecosystem and Mad Lads community.",
+    "socials": {
+      "website": "https://backpack.exchange",
+      "twitter": "https://x.com/Backpack",
+      "discord": "https://discord.gg/backpack",
+      "telegram": "https://t.me/backpack_exchange"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Backpack",
+      "dns": "backpack.exchange (DNSSEC)",
+      "auditedBy": [
+        "Sec3"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "backpack"
+    },
+    "similarAppIds": [
+      "drift",
+      "phoenix",
+      "madlads",
+      "jupiter"
+    ]
+  },
+  {
+    "id": "whales",
+    "name": "Whales Market",
+    "verifiedDomain": "whales.market",
+    "icon": "https://app.whales.market/favicon.ico",
+    "category": "Trading",
+    "tags": [
+      "Pre-Market",
+      "OTC",
+      "Airdrop",
+      "P2P"
+    ],
+    "shortDescription": "Decentralized pre-market OTC exchange for airdrops and unreleased tokens.",
+    "fullAbout": "Whales Market allows traders to lock collateral and trade pre-token allocation allocations, airdrop points, and OTC token deals on Solana safely through trustless escrow smart contracts.",
+    "socials": {
+      "website": "https://app.whales.market",
+      "twitter": "https://x.com/WhalesMarket",
+      "discord": "https://discord.gg/whalesmarket",
+      "telegram": "https://t.me/whalesmarket"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@WhalesMarket",
+      "dns": "whales.market (DNSSEC)",
+      "auditedBy": [
+        "Verichains"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "whales-market"
+    },
+    "similarAppIds": [
+      "drift",
+      "jupiter",
+      "phoenix",
+      "zeta"
+    ]
+  },
+  {
+    "id": "mayan",
+    "name": "Mayan Finance",
+    "verifiedDomain": "mayan.finance",
+    "icon": "https://swap.mayan.finance/favicon.ico",
+    "category": "DeFi",
+    "tags": [
+      "Cross-Chain",
+      "Swap",
+      "Wormhole",
+      "Bridge"
+    ],
+    "shortDescription": "Cross-chain swap auction protocol powered by Wormhole and Solana.",
+    "fullAbout": "Mayan Finance is a cross-chain swap aggregator that runs high-speed Dutch auctions on Solana, giving users optimal execution prices when moving tokens between Ethereum, Solana, Arbitrum, Avalanche, and Base.",
+    "socials": {
+      "website": "https://swap.mayan.finance",
+      "twitter": "https://x.com/MayanFinance",
+      "discord": "https://discord.gg/mayanfinance",
+      "telegram": "https://t.me/mayanfinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MayanFinance",
+      "dns": "mayan.finance (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "mayan-finance"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "portal",
+      "raydium",
+      "orca"
+    ]
+  },
+  {
+    "id": "magiceden",
+    "name": "Magic Eden",
+    "verifiedDomain": "magiceden.io",
+    "icon": "https://magiceden.io/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "Marketplace",
+      "NFTs",
+      "Launchpad",
+      "Rewards"
+    ],
+    "shortDescription": "The leading multi-chain NFT marketplace and launchpad on Solana.",
+    "fullAbout": "Magic Eden is Solana's premier NFT marketplace. It features high-volume secondary trading, premier creator launchpads, collection analytics, and cross-chain rewards programs uniting millions of collectors and creators.",
+    "socials": {
+      "website": "https://magiceden.io",
+      "twitter": "https://x.com/MagicEden",
+      "discord": "https://discord.gg/magiceden",
+      "telegram": "https://t.me/magiceden"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MagicEden",
+      "dns": "magiceden.io (DNSSEC)",
+      "auditedBy": [
+        "Neodyme"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "magic-eden"
+    },
+    "similarAppIds": [
+      "tensor",
+      "drip",
+      "madlads",
+      "sharky"
+    ]
+  },
+  {
+    "id": "tensor",
+    "name": "Tensor",
+    "verifiedDomain": "tensor.trade",
+    "icon": "https://www.tensor.trade/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "Pro Trading",
+      "AMM",
+      "NFTs",
+      "Analytics"
+    ],
+    "shortDescription": "Pro NFT trading platform, AMM, and market analytics for Solana.",
+    "fullAbout": "Tensor is built for professional NFT traders, offering real-time data feeds, automated market maker pools, batch bidding, collection sweeping, and advanced order types on Solana's most liquid NFT trading venue.",
+    "socials": {
+      "website": "https://tensor.trade",
+      "twitter": "https://x.com/tensor_hq",
+      "discord": "https://discord.gg/tensor",
+      "telegram": "https://t.me/tensor_hq"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@tensor_hq",
+      "dns": "tensor.trade (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "tensor"
+    },
+    "similarAppIds": [
+      "magiceden",
+      "sharky",
+      "citrus",
+      "famousfoxes"
+    ]
+  },
+  {
+    "id": "drip",
+    "name": "DRiP",
+    "verifiedDomain": "drip.haus",
+    "icon": "https://drip.haus/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "Creator",
+      "Collectibles",
+      "Free Drops",
+      "Art"
+    ],
+    "shortDescription": "Collectible drops from leading digital creators on Solana.",
+    "fullAbout": "DRiP allows collectors to discover and receive free weekly art, comic, music, and gaming drops from premier digital creators, using Solana's compressed NFT technology to make mass-minting frictionless.",
+    "socials": {
+      "website": "https://drip.haus",
+      "twitter": "https://x.com/drip_haus",
+      "discord": "https://discord.gg/driphaus",
+      "telegram": "https://t.me/drip_haus"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@drip_haus",
+      "dns": "drip.haus (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "drip"
+    },
+    "similarAppIds": [
+      "magiceden",
+      "tensor",
+      "madlads",
+      "famousfoxes"
+    ]
+  },
+  {
+    "id": "sharky",
+    "name": "Sharky",
+    "verifiedDomain": "sharky.fi",
+    "icon": "https://sharky.fi/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "Lending",
+      "NFT Fi",
+      "Loans",
+      "Yield"
+    ],
+    "shortDescription": "NFT lending protocol for instant SOL loans against NFT collateral.",
+    "fullAbout": "Sharky is Solana's premier NFT-collateralized lending platform. Borrowers can unlock instant liquidity without selling their digital assets, while lenders earn competitive APR by funding escrow-backed loans.",
+    "socials": {
+      "website": "https://sharky.fi",
+      "twitter": "https://x.com/SharkyFi",
+      "discord": "https://discord.gg/sharkyfi",
+      "telegram": "https://t.me/sharkyfi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SharkyFi",
+      "dns": "sharky.fi (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "sharky"
+    },
+    "similarAppIds": [
+      "citrus",
+      "tensor",
+      "magiceden",
+      "kamino"
+    ]
+  },
+  {
+    "id": "famousfoxes",
+    "name": "Famous Fox Federation",
+    "verifiedDomain": "famousfoxes.com",
+    "icon": "https://famousfoxes.com/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "Utility",
+      "Sweeping",
+      "Tools",
+      "Community"
+    ],
+    "shortDescription": "Premier Solana utility ecosystem featuring sweeping, staking, and raffles.",
+    "fullAbout": "The Famous Fox Federation is one of Solana's most prolific builder communities, providing essential NFT tooling including bulk messaging, collection sweeping, burn-for-SOL mechanisms, token raffles, and token locking.",
+    "socials": {
+      "website": "https://famousfoxes.com",
+      "twitter": "https://x.com/FamousFoxFed",
+      "discord": "https://discord.gg/famousfoxes",
+      "telegram": "https://t.me/famousfoxes"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@FamousFoxFed",
+      "dns": "famousfoxes.com (DNSSEC)",
+      "auditedBy": [
+        "Sec3"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "famous-foxes"
+    },
+    "similarAppIds": [
+      "citrus",
+      "tensor",
+      "magiceden",
+      "madlads"
+    ]
+  },
+  {
+    "id": "citrus",
+    "name": "Citrus",
+    "verifiedDomain": "famousfoxes.com",
+    "icon": "https://citrus.famousfoxes.com/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "NFT Lending",
+      "P2P Loans",
+      "Famous Foxes",
+      "Borrowing"
+    ],
+    "shortDescription": "Peer-to-peer NFT lending platform by the Famous Fox Federation.",
+    "fullAbout": "Citrus is a community-first peer-to-peer NFT lending protocol created by the Famous Fox Federation. It allows borrowers to customize loan terms and lenders to safely earn fixed-yield returns on Solana NFTs.",
+    "socials": {
+      "website": "https://citrus.famousfoxes.com",
+      "twitter": "https://x.com/FamousFoxFed",
+      "discord": "https://discord.gg/famousfoxes",
+      "telegram": "https://t.me/famousfoxes"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@FamousFoxFed",
+      "dns": "famousfoxes.com (DNSSEC)",
+      "auditedBy": [
+        "Sec3"
+      ],
+      "verifiedDate": "2024-02-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "citrus"
+    },
+    "similarAppIds": [
+      "sharky",
+      "famousfoxes",
+      "tensor",
+      "magiceden"
+    ]
+  },
+  {
+    "id": "madlads",
+    "name": "Mad Lads",
+    "verifiedDomain": "madlads.com",
+    "icon": "https://madlads.com/favicon.ico",
+    "category": "NFTs",
+    "tags": [
+      "xNFT",
+      "Ecosystem",
+      "Backpack",
+      "Community"
+    ],
+    "shortDescription": "Flagship xNFT collection and pioneering Backpack ecosystem community.",
+    "fullAbout": "Mad Lads is the benchmark generative art and cultural powerhouse on Solana, pioneering executable NFT (xNFT) standards and anchoring the Backpack ecosystem across global Web3 communities.",
+    "socials": {
+      "website": "https://madlads.com",
+      "twitter": "https://x.com/MadLads",
+      "discord": "https://discord.gg/madlads",
+      "telegram": "https://t.me/madlads_community"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MadLads",
+      "dns": "madlads.com (DNSSEC)",
+      "auditedBy": [
+        "Sec3"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "mad-lads"
+    },
+    "similarAppIds": [
+      "backpack",
+      "magiceden",
+      "tensor",
+      "famousfoxes"
+    ]
+  },
+  {
+    "id": "pumpfun",
+    "name": "Pump.fun",
+    "verifiedDomain": "pump.fun",
+    "icon": "https://pump.fun/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Launchpad",
+      "Fair Launch",
+      "Memes",
+      "Bonding Curve"
+    ],
+    "shortDescription": "Fair launch meme coin generation and instant bonding curve trading.",
+    "fullAbout": "Pump.fun is the viral launchpad that democratized meme token creation on Solana. Tokens launch with fair bonding curves without pre-allocations or team tokens, automatically graduating to Raydium upon meeting threshold liquidity.",
+    "socials": {
+      "website": "https://pump.fun",
+      "twitter": "https://x.com/pumpdotfun",
+      "discord": "https://discord.gg/pumpfun",
+      "telegram": "https://t.me/pumpfun"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@pumpdotfun",
+      "dns": "pump.fun (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "pump-fun"
+    },
+    "similarAppIds": [
+      "gmgn",
+      "photon",
+      "moonshot",
+      "bullx"
+    ]
+  },
+  {
+    "id": "gmgn",
+    "name": "GMGN",
+    "verifiedDomain": "gmgn.ai",
+    "icon": "https://gmgn.ai/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Signals",
+      "Trading",
+      "Sniper",
+      "Smart Money"
+    ],
+    "shortDescription": "Fast-execution meme coin discovery, on-chain signals, and copy trading.",
+    "fullAbout": "GMGN is an advanced meme token trading terminal that monitors smart money wallets, tracks live on-chain momentum, alerts against honeypots and rugpulls, and provides high-speed automated buying and selling.",
+    "socials": {
+      "website": "https://gmgn.ai",
+      "twitter": "https://x.com/gmgnai",
+      "discord": "https://discord.gg/gmgnai",
+      "telegram": "https://t.me/gmgnai"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@gmgnai",
+      "dns": "gmgn.ai (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "gmgn"
+    },
+    "similarAppIds": [
+      "photon",
+      "bullx",
+      "pumpfun",
+      "birdeye"
+    ]
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "verifiedDomain": "tinyastro.io",
+    "icon": "https://photon-sol.tinyastro.io/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Fast DEX",
+      "Sniper",
+      "Live Pairs",
+      "Meme Trading"
+    ],
+    "shortDescription": "Lightning fast DEX trading terminal tailored for Solana meme coins.",
+    "fullAbout": "Photon is a low-latency Solana DEX trading terminal featuring instant transaction confirmations, real-time new pair feeds, security audits, quick buy/sell shortcuts, and automated profit-taking presets.",
+    "socials": {
+      "website": "https://photon-sol.tinyastro.io",
+      "twitter": "https://x.com/tradewithPhoton",
+      "discord": "https://discord.gg/tinyastro",
+      "telegram": "https://t.me/photon_sol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@tradewithPhoton",
+      "dns": "tinyastro.io (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "photon"
+    },
+    "similarAppIds": [
+      "gmgn",
+      "bullx",
+      "pumpfun",
+      "snipr"
+    ]
+  },
+  {
+    "id": "bullx",
+    "name": "BullX",
+    "verifiedDomain": "bullx.io",
+    "icon": "https://bullx.io/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Terminal",
+      "Sniper",
+      "Token Scanner",
+      "Trading"
+    ],
+    "shortDescription": "Multi-chain meme trading terminal with security audits and fast sniper.",
+    "fullAbout": "BullX provides a unified desktop and mobile trading terminal for Solana meme tokens, featuring integrated risk analysis, automated order routing, dev holding checks, and high-priority RPC infrastructure.",
+    "socials": {
+      "website": "https://bullx.io",
+      "twitter": "https://x.com/bullx_io",
+      "discord": "https://discord.gg/bullx",
+      "telegram": "https://t.me/bullx_io"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@bullx_io",
+      "dns": "bullx.io (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-10",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bullx"
+    },
+    "similarAppIds": [
+      "gmgn",
+      "photon",
+      "pumpfun",
+      "snipr"
+    ]
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot",
+    "verifiedDomain": "moonshot.money",
+    "icon": "https://moonshot.money/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Mobile",
+      "Onboarding",
+      "Meme Coins",
+      "Fiat"
+    ],
+    "shortDescription": "Mobile-first meme coin discovery and fiat onboarding platform.",
+    "fullAbout": "Moonshot lets newcomers easily discover, buy, and trade trending Solana meme tokens with Apple Pay, credit cards, or crypto, delivering a seamless consumer onboarding experience.",
+    "socials": {
+      "website": "https://moonshot.money",
+      "twitter": "https://x.com/moonshotmoney",
+      "discord": "https://discord.gg/moonshotmoney",
+      "telegram": "https://t.me/moonshotmoney"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@moonshotmoney",
+      "dns": "moonshot.money (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-04-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "moonshot"
+    },
+    "similarAppIds": [
+      "pumpfun",
+      "gmgn",
+      "photon",
+      "dexscreener"
+    ]
+  },
+  {
+    "id": "apepro",
+    "name": "Ape.pro",
+    "verifiedDomain": "ape.pro",
+    "icon": "https://ape.pro/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Jupiter",
+      "Meme Terminal",
+      "Fast Swap",
+      "Trading"
+    ],
+    "shortDescription": "High-speed meme and token trading terminal built with Jupiter routing.",
+    "fullAbout": "Ape.pro delivers a streamlined trading terminal designed for speed, low slippage, and high-frequency Solana token trading powered by Jupiter liquidity aggregation.",
+    "socials": {
+      "website": "https://ape.pro",
+      "twitter": "https://x.com/ApePro_sol",
+      "discord": "https://discord.gg/jup",
+      "telegram": "https://t.me/ApePro_sol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ApePro_sol",
+      "dns": "ape.pro (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-03-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "ape-pro"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "gmgn",
+      "photon",
+      "bullx"
+    ]
+  },
+  {
+    "id": "trojan",
+    "name": "Trojan",
+    "verifiedDomain": "trojan.app",
+    "icon": "https://trojan.app/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Telegram Bot",
+      "Web Terminal",
+      "Sniper",
+      "Trading"
+    ],
+    "shortDescription": "Advanced Solana trading bot and fast-execution web terminal.",
+    "fullAbout": "Trojan on Solana delivers automated copy trading, LP sniping, limit orders, anti-MEV private transaction relays, and lightning executions for professional meme token traders.",
+    "socials": {
+      "website": "https://trojan.app",
+      "twitter": "https://x.com/TrojanOnSolana",
+      "discord": "https://discord.gg/trojanonsolana",
+      "telegram": "https://t.me/trojan_solana_bot"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@TrojanOnSolana",
+      "dns": "trojan.app (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "trojan"
+    },
+    "similarAppIds": [
+      "gmgn",
+      "photon",
+      "snipr",
+      "bullx"
+    ]
+  },
+  {
+    "id": "snipr",
+    "name": "Snipr",
+    "verifiedDomain": "snipr.trade",
+    "icon": "https://snipr.trade/favicon.ico",
+    "category": "Memes",
+    "tags": [
+      "Sniper",
+      "Low Latency",
+      "Memes",
+      "Trading"
+    ],
+    "shortDescription": "Low latency Solana token sniper and execution suite.",
+    "fullAbout": "Snipr provides traders with ultra-low latency transaction routing, anti-sandwich protection, and instant token launch snipers directly synced with Solana validator blocks.",
+    "socials": {
+      "website": "https://snipr.trade",
+      "twitter": "https://x.com/sniprtrade",
+      "discord": "https://discord.gg/snipr",
+      "telegram": "https://t.me/sniprtrade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@sniprtrade",
+      "dns": "snipr.trade (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "snipr"
+    },
+    "similarAppIds": [
+      "photon",
+      "gmgn",
+      "bullx",
+      "trojan"
+    ]
+  },
+  {
+    "id": "birdeye",
+    "name": "Birdeye",
+    "verifiedDomain": "birdeye.so",
+    "icon": "https://birdeye.so/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Analytics",
+      "Charts",
+      "Market Data",
+      "Data API"
+    ],
+    "shortDescription": "Real-time crypto trading data aggregator and market intelligence.",
+    "fullAbout": "Birdeye is an on-chain trading data aggregator providing real-time pricing feeds, candlestick charts, token profiles, security scores, and holder distribution metrics for thousands of Solana assets.",
+    "socials": {
+      "website": "https://birdeye.so",
+      "twitter": "https://x.com/birdeye_so",
+      "discord": "https://discord.gg/birdeye",
+      "telegram": "https://t.me/birdeye_so"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@birdeye_so",
+      "dns": "birdeye.so (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "birdeye"
+    },
+    "similarAppIds": [
+      "dexscreener",
+      "solscan",
+      "step",
+      "gmgn"
+    ]
+  },
+  {
+    "id": "dexscreener",
+    "name": "DexScreener",
+    "verifiedDomain": "dexscreener.com",
+    "icon": "https://dexscreener.com/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "DEX Charts",
+      "Live Price",
+      "Watchlist",
+      "Analytics"
+    ],
+    "shortDescription": "Real-time DEX charts, price analysis, and token tracker across chains.",
+    "fullAbout": "DexScreener is the industry standard charting platform for decentralized exchanges. It surfaces newly minted liquidity pools, trending pairs, volume spikes, and wallet transactions in real time.",
+    "socials": {
+      "website": "https://dexscreener.com",
+      "twitter": "https://x.com/dexscreener",
+      "discord": "https://discord.gg/dexscreener",
+      "telegram": "https://t.me/dexscreener"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@dexscreener",
+      "dns": "dexscreener.com (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "dexscreener"
+    },
+    "similarAppIds": [
+      "birdeye",
+      "solscan",
+      "gmgn",
+      "photon"
+    ]
+  },
+  {
+    "id": "solscan",
+    "name": "Solscan",
+    "verifiedDomain": "solscan.io",
+    "icon": "https://solscan.io/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Explorer",
+      "Transactions",
+      "Blocks",
+      "Analytics"
+    ],
+    "shortDescription": "The leading block explorer and data analytics platform for Solana.",
+    "fullAbout": "Solscan provides transparent block explorer capabilities for Solana, enabling users to inspect transactions, track account balances, verify smart contracts, and analyze SPL token flows.",
+    "socials": {
+      "website": "https://solscan.io",
+      "twitter": "https://x.com/solscanofficial",
+      "discord": "https://discord.gg/solscan",
+      "telegram": "https://t.me/solscan_official"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solscanofficial",
+      "dns": "solscan.io (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solscan"
+    },
+    "similarAppIds": [
+      "solanafm",
+      "birdeye",
+      "step",
+      "squads"
+    ]
+  },
+  {
+    "id": "solanafm",
+    "name": "SolanaFM",
+    "verifiedDomain": "solana.fm",
+    "icon": "https://solana.fm/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Explorer",
+      "Visualizer",
+      "Flows",
+      "Analytics"
+    ],
+    "shortDescription": "Friendly Solana block explorer with visual transaction flow modeling.",
+    "fullAbout": "SolanaFM provides an intuitive block explorer experience designed to unpack complex composable Solana transactions into readable diagrams, token transfers, and program logs.",
+    "socials": {
+      "website": "https://solana.fm",
+      "twitter": "https://x.com/solanafm",
+      "discord": "https://discord.gg/solanafm",
+      "telegram": "https://t.me/solanafm"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solanafm",
+      "dns": "solana.fm (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-01-20",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solana-fm"
+    },
+    "similarAppIds": [
+      "solscan",
+      "step",
+      "birdeye",
+      "squads"
+    ]
+  },
+  {
+    "id": "dialect",
+    "name": "Dialect",
+    "verifiedDomain": "dialect.to",
+    "icon": "https://dialect.to/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Blinks",
+      "Actions",
+      "Messaging",
+      "Web3 Social"
+    ],
+    "shortDescription": "Smart messaging and Solana Blinks infrastructure.",
+    "fullAbout": "Dialect builds open developer infrastructure enabling Solana Actions and Blinks (blockchain links) that turn any website, social post, or chat into an interactive, shareable Solana transaction surface.",
+    "socials": {
+      "website": "https://dialect.to",
+      "twitter": "https://x.com/saydialect",
+      "discord": "https://discord.gg/dialect",
+      "telegram": "https://t.me/saydialect"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@saydialect",
+      "dns": "dialect.to (DNSSEC)",
+      "auditedBy": [
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-02-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "dialect"
+    },
+    "similarAppIds": [
+      "solchat",
+      "sns",
+      "helio",
+      "sphere"
+    ]
+  },
+  {
+    "id": "solflare",
+    "name": "Solflare",
+    "verifiedDomain": "solflare.com",
+    "icon": "https://solflare.com/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Wallet",
+      "Security",
+      "Staking",
+      "Swap"
+    ],
+    "shortDescription": "Non-custodial Solana wallet with hardware support and staking.",
+    "fullAbout": "Solflare is a veteran non-custodial wallet dedicated to Solana. It features integrated staking, Ledger hardware support, simulated transaction previews, and anti-phishing protection.",
+    "socials": {
+      "website": "https://solflare.com",
+      "twitter": "https://x.com/solflare_wallet",
+      "discord": "https://discord.gg/solflare",
+      "telegram": "https://t.me/solflare_wallet"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solflare_wallet",
+      "dns": "solflare.com (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solflare"
+    },
+    "similarAppIds": [
+      "phantom",
+      "backpack",
+      "step",
+      "squads"
+    ]
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom",
+    "verifiedDomain": "phantom.app",
+    "icon": "https://phantom.app/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Wallet",
+      "Multi-Chain",
+      "NFTs",
+      "Security"
+    ],
+    "shortDescription": "Multi-chain crypto wallet for Solana, Bitcoin, and Ethereum.",
+    "fullAbout": "Phantom is a popular self-custodial wallet bridging users into Web3. It provides frictionless swapping, NFT galleries, automated scam filtering, and cross-chain support.",
+    "socials": {
+      "website": "https://phantom.app",
+      "twitter": "https://x.com/phantom",
+      "discord": "https://discord.gg/phantom",
+      "telegram": "https://t.me/phantom_app"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@phantom",
+      "dns": "phantom.app (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security",
+        "Halborn"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "phantom"
+    },
+    "similarAppIds": [
+      "solflare",
+      "backpack",
+      "step",
+      "squads"
+    ]
+  },
+  {
+    "id": "step",
+    "name": "Step Finance",
+    "verifiedDomain": "step.finance",
+    "icon": "https://step.finance/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Portfolio",
+      "Dashboard",
+      "Analytics",
+      "Front Page"
+    ],
+    "shortDescription": "The front page of Solana — portfolio management and ecosystem dashboard.",
+    "fullAbout": "Step Finance aggregates all of a user's Solana positions, LP stakes, yields, and token holdings into a unified dashboard, acting as the comprehensive portfolio manager for the Solana ecosystem.",
+    "socials": {
+      "website": "https://step.finance",
+      "twitter": "https://x.com/StepFinance_",
+      "discord": "https://discord.gg/stepfinance",
+      "telegram": "https://t.me/stepfinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@StepFinance_",
+      "dns": "step.finance (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "step-finance"
+    },
+    "similarAppIds": [
+      "solscan",
+      "birdeye",
+      "solflare",
+      "kamino"
+    ]
+  },
+  {
+    "id": "helio",
+    "name": "Helio",
+    "verifiedDomain": "hel.io",
+    "icon": "https://hel.io/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Payments",
+      "Checkout",
+      "Commerce",
+      "Pay"
+    ],
+    "shortDescription": "Web3 payments platform enabling commerce on Solana.",
+    "fullAbout": "Helio powers crypto checkout buttons, payment links, and subscriptions on Solana and multi-chain, allowing merchants and creators to accept instant payments with low processing fees.",
+    "socials": {
+      "website": "https://hel.io",
+      "twitter": "https://x.com/helio_pay",
+      "discord": "https://discord.gg/heliopay",
+      "telegram": "https://t.me/helio_pay"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@helio_pay",
+      "dns": "hel.io (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-02-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "helio"
+    },
+    "similarAppIds": [
+      "sphere",
+      "dialect",
+      "squads",
+      "sns"
+    ]
+  },
+  {
+    "id": "sphere",
+    "name": "Sphere",
+    "verifiedDomain": "spherepay.co",
+    "icon": "https://spherepay.co/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Payments",
+      "Settlement",
+      "Invoicing",
+      "API"
+    ],
+    "shortDescription": "Payment infrastructure and merchant settlement on Solana.",
+    "fullAbout": "Sphere provides developer-friendly payment APIs, merchant point-of-sale integrations, and instant fiat-to-crypto settlements built on Solana for global high-throughput business transactions.",
+    "socials": {
+      "website": "https://spherepay.co",
+      "twitter": "https://x.com/sphere_labs",
+      "discord": "https://discord.gg/spherelabs",
+      "telegram": "https://t.me/spherepay"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@sphere_labs",
+      "dns": "spherepay.co (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "sphere"
+    },
+    "similarAppIds": [
+      "helio",
+      "dialect",
+      "squads",
+      "sns"
+    ]
+  },
+  {
+    "id": "squads",
+    "name": "Squads",
+    "verifiedDomain": "squads.so",
+    "icon": "https://app.squads.so/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Multisig",
+      "Treasury",
+      "Smart Contract",
+      "Security"
+    ],
+    "shortDescription": "Smart contract multisig and treasury management for Solana teams.",
+    "fullAbout": "Squads is the standard multisig infrastructure for Solana protocols, securing billions in treasury assets, program upgrade authorities, and team validator operations with role-based governance.",
+    "socials": {
+      "website": "https://app.squads.so",
+      "twitter": "https://x.com/SquadsProtocol",
+      "discord": "https://discord.gg/squads",
+      "telegram": "https://t.me/squadsprotocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SquadsProtocol",
+      "dns": "squads.so (DNSSEC)",
+      "auditedBy": [
+        "Neodyme",
+        "OtterSec"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "squads"
+    },
+    "similarAppIds": [
+      "solflare",
+      "phantom",
+      "solscan",
+      "step"
+    ]
+  },
+  {
+    "id": "solchat",
+    "name": "Solchat",
+    "verifiedDomain": "solchat.io",
+    "icon": "https://solchat.io/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Chat",
+      "Encrypted",
+      "Voice",
+      "WebRTC"
+    ],
+    "shortDescription": "Communication protocol for encrypted text, voice, and video on Solana.",
+    "fullAbout": "Solchat is a decentralized messaging and peer-to-peer calling protocol that uses Solana wallet public keys for encryption, WebRTC peer matching, and trustless on-chain state synchronization.",
+    "socials": {
+      "website": "https://solchat.io",
+      "twitter": "https://x.com/SolChatCoin",
+      "discord": "https://discord.gg/solchat",
+      "telegram": "https://t.me/solchat_sol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SolChatCoin",
+      "dns": "solchat.io (DNSSEC)",
+      "auditedBy": [
+        "GhostWallet Verified"
+      ],
+      "verifiedDate": "2024-03-01",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solchat"
+    },
+    "similarAppIds": [
+      "dialect",
+      "sns",
+      "helio",
+      "sphere"
+    ]
+  },
+  {
+    "id": "pyth",
+    "name": "Pyth Network",
+    "verifiedDomain": "pyth.network",
+    "icon": "https://pyth.network/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Oracle",
+      "Price Feeds",
+      "Low Latency",
+      "Institutional"
+    ],
+    "shortDescription": "High-fidelity real-time financial market data oracle.",
+    "fullAbout": "Pyth Network publishes institutional-grade real-time market data across equities, commodities, FX, and cryptocurrencies, securing billions across Solana DeFi applications with sub-second price updates.",
+    "socials": {
+      "website": "https://pyth.network",
+      "twitter": "https://x.com/PythNetwork",
+      "discord": "https://discord.gg/pythnetwork",
+      "telegram": "https://t.me/Pyth_Network"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@PythNetwork",
+      "dns": "pyth.network (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security",
+        "CertiK"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "pyth-network"
+    },
+    "similarAppIds": [
+      "lifinity",
+      "jupiter",
+      "drift",
+      "kamino"
+    ]
+  },
+  {
+    "id": "portal",
+    "name": "Portal Bridge",
+    "verifiedDomain": "portalbridge.com",
+    "icon": "https://portalbridge.com/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Bridge",
+      "Cross-Chain",
+      "Wormhole",
+      "Transfers"
+    ],
+    "shortDescription": "Cross-chain token and NFT bridge built on Wormhole.",
+    "fullAbout": "Portal Bridge enables seamless token and NFT transfers between Solana and 30+ major blockchains, backed by the Wormhole Guardian validator network for secure cross-chain interoperability.",
+    "socials": {
+      "website": "https://portalbridge.com",
+      "twitter": "https://x.com/wormhole",
+      "discord": "https://discord.gg/wormholecrypto",
+      "telegram": "https://t.me/wormholecrypto"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@wormhole",
+      "dns": "portalbridge.com (DNSSEC)",
+      "auditedBy": [
+        "Neodyme",
+        "Kudelski Security"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "portal"
+    },
+    "similarAppIds": [
+      "mayan",
+      "jupiter",
+      "solscan",
+      "step"
+    ]
+  },
+  {
+    "id": "sns",
+    "name": "Bonfida SNS",
+    "verifiedDomain": "sns.id",
+    "icon": "https://sns.id/favicon.ico",
+    "category": "Tools",
+    "tags": [
+      "Domains",
+      ".sol",
+      "Identity",
+      "Names"
+    ],
+    "shortDescription": "Solana Name Service (.sol) domain registry and decentralized identity.",
+    "fullAbout": "Bonfida's Solana Name Service (SNS) replaces complex base58 public keys with readable human names like user.sol, linking domains to wallet addresses, IPFS records, and decentralized Web3 profiles.",
+    "socials": {
+      "website": "https://sns.id",
+      "twitter": "https://x.com/bonfida",
+      "discord": "https://discord.gg/bonfida",
+      "telegram": "https://t.me/bonfidatg"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@bonfida",
+      "dns": "sns.id (DNSSEC)",
+      "auditedBy": [
+        "Kudelski Security"
+      ],
+      "verifiedDate": "2024-01-15",
+      "verifiedBy": "GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bonfida"
+    },
+    "similarAppIds": [
+      "dialect",
+      "solflare",
+      "phantom",
+      "solscan"
+    ]
+  },
+  {
+    "id": "lido",
+    "name": "Lido",
+    "verifiedDomain": "lido.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/lido",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid staking for Ethereum and Polygon. Daily staking rewards, no lock ups.",
+    "fullAbout": "Liquid staking for Ethereum and Polygon. Daily staking rewards, no lock ups.",
+    "socials": {
+      "website": "https://lido.fi/",
+      "twitter": "https://x.com/LidoFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@LidoFinance",
+      "dns": "lido.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "lido"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "layerzero-v2",
+    "name": "LayerZero V2",
+    "verifiedDomain": "layerzero.network",
+    "icon": "https://icons.llamao.fi/icons/protocols/layerzero-v2",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "LayerZero is a technology that enables applications to move data across blockchains, uniquely supporting censorship-resistant messages and p",
+    "fullAbout": "LayerZero is a technology that enables applications to move data across blockchains, uniquely supporting censorship-resistant messages and permissionless development through immutable smart contracts.",
+    "socials": {
+      "website": "https://layerzero.network/",
+      "twitter": "https://x.com/LayerZero_Core"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@LayerZero_Core",
+      "dns": "layerzero.network (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "layerzero-v2"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "steakhouse-financial",
+    "name": "Steakhouse Financial",
+    "verifiedDomain": "steakhouse.financial",
+    "icon": "https://icons.llamao.fi/icons/protocols/steakhouse-financial",
+    "category": "DeFi",
+    "tags": [
+      "Risk Curators",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "We build transparent, efficient, and accessible financial primitives to power the next generation of capital markets on public blockchains",
+    "fullAbout": "We build transparent, efficient, and accessible financial primitives to power the next generation of capital markets on public blockchains",
+    "socials": {
+      "website": "https://www.steakhouse.financial/",
+      "twitter": "https://x.com/SteakhouseFi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SteakhouseFi",
+      "dns": "steakhouse.financial (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "steakhouse-financial"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "sentora-curator",
+    "name": "Sentora Curator",
+    "verifiedDomain": "sentora.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/sentora",
+    "category": "DeFi",
+    "tags": [
+      "Risk Curators",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Sentora provides the institutional-grade foundation for powering the next generation of DeFi solutions. Sentora's vault platform unlocks acc",
+    "fullAbout": "Sentora provides the institutional-grade foundation for powering the next generation of DeFi solutions. Sentora's vault platform unlocks access to DeFi through sophisticated strategies, robust risk management, and enterprise-grade security.",
+    "socials": {
+      "website": "https://sentora.com/",
+      "twitter": "https://x.com/SentoraHQ"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SentoraHQ",
+      "dns": "sentora.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "sentora-curator"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "ccip",
+    "name": "CCIP",
+    "verifiedDomain": "chain.link",
+    "icon": "https://icons.llamao.fi/icons/protocols/ccip",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Chainlink CCIP is a cross-chain interoperability protocol that lets apps and assets move tokens and messages across blockchains through Chai",
+    "fullAbout": "Chainlink CCIP is a cross-chain interoperability protocol that lets apps and assets move tokens and messages across blockchains through Chainlink’s own secure messaging and transfer layer",
+    "socials": {
+      "website": "https://chain.link/cross-chain",
+      "twitter": "https://x.com/chainlink"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@chainlink",
+      "dns": "chain.link (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "ccip"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "gauntlet",
+    "name": "Gauntlet",
+    "verifiedDomain": "gauntlet.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/gauntlet",
+    "category": "DeFi",
+    "tags": [
+      "Risk Curators",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Our vaults provide risk-adjusted DeFi yields for institutional capital at scale. These strategies are optimized by our automated risk platfo",
+    "fullAbout": "Our vaults provide risk-adjusted DeFi yields for institutional capital at scale. These strategies are optimized by our automated risk platform— designed by the most vigilant, quantitative minds in crypto.",
+    "socials": {
+      "website": "https://www.gauntlet.xyz",
+      "twitter": "https://x.com/gauntlet_xyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@gauntlet_xyz",
+      "dns": "gauntlet.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "gauntlet"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "kamino-lend",
+    "name": "Kamino Lend",
+    "verifiedDomain": "kamino.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/kamino-lend",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Kamino Lend (K-Lend) is a novel peer-to-pool borrowing primitive designed as foundational infrastructure to power complex financial products",
+    "fullAbout": "Kamino Lend (K-Lend) is a novel peer-to-pool borrowing primitive designed as foundational infrastructure to power complex financial products with leverage and automation and as a decentralized matchmaker between borrowers and lenders",
+    "socials": {
+      "website": "https://kamino.com/",
+      "twitter": "https://x.com/Kamino"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Kamino",
+      "dns": "kamino.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "kamino-lend"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "binance-staked-sol",
+    "name": "Binance Staked SOL",
+    "verifiedDomain": "binance.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/binance-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Stake SOL and get BNSOL as the tokenized representation on your staked SOL",
+    "fullAbout": "Stake SOL and get BNSOL as the tokenized representation on your staked SOL",
+    "socials": {
+      "website": "https://www.binance.com/en/solana-staking",
+      "twitter": "https://x.com/binance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@binance",
+      "dns": "binance.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "binance-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "unit",
+    "name": "Unit",
+    "verifiedDomain": "hyperunit.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/unit",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Unit is the asset tokenization layer on Hyperliquid, enabling seamless deposits and withdrawals.",
+    "fullAbout": "Unit is the asset tokenization layer on Hyperliquid, enabling seamless deposits and withdrawals.",
+    "socials": {
+      "website": "https://hyperunit.xyz/deposit",
+      "twitter": "https://x.com/unitxyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@unitxyz",
+      "dns": "hyperunit.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "unit"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "pancakeswap-amm-v3",
+    "name": "PancakeSwap AMM V3",
+    "verifiedDomain": "pancakeswap.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/pancakeswap-amm-v3",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "PancakeSwap V3: A More Efficient and User-Friendly DEX on BNB Chain",
+    "fullAbout": "PancakeSwap V3: A More Efficient and User-Friendly DEX on BNB Chain",
+    "socials": {
+      "website": "https://pancakeswap.finance/swap",
+      "twitter": "https://x.com/PancakeSwap"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@PancakeSwap",
+      "dns": "pancakeswap.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "pancakeswap-amm-v3"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "aster-bridge",
+    "name": "Aster Bridge",
+    "verifiedDomain": "asterdex.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/aster-bridge",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mo",
+    "fullAbout": "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mode, and full-featured, pro-grade tools in Pro Mode. Backed by YZi Labs, Aster is building the future of DeFi: fast, flexible, and community-first",
+    "socials": {
+      "website": "https://www.asterdex.com",
+      "twitter": "https://x.com/Aster_DEX"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Aster_DEX",
+      "dns": "asterdex.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "aster-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "upshift",
+    "name": "Upshift",
+    "verifiedDomain": "app.upshift.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/upshift",
+    "category": "DeFi",
+    "tags": [
+      "Onchain Capital Allocator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Upshift opens access to transparent yields backed by secure risk controls. Supply, stake and access cross-chain yields.",
+    "fullAbout": "Upshift opens access to transparent yields backed by secure risk controls. Supply, stake and access cross-chain yields.",
+    "socials": {
+      "website": "https://app.upshift.finance",
+      "twitter": "https://x.com/upshift_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@upshift_fi",
+      "dns": "app.upshift.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "upshift"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "solvbtc",
+    "name": "SolvBTC",
+    "verifiedDomain": "app.solv.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/solvbtc",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "SolvBTC is a universal Bitcoin reserve token that connects Bitcoin’s value across blockchains, backed 1:1 by a transparent, secure reserve. ",
+    "fullAbout": "SolvBTC is a universal Bitcoin reserve token that connects Bitcoin’s value across blockchains, backed 1:1 by a transparent, secure reserve. It empowers you to tap into DeFi and CeFi markets effortlessly, transforming idle Bitcoin into a dynamic asset for lending, trading, or yield generation—while keeping you in full control.",
+    "socials": {
+      "website": "https://app.solv.finance/solvbtc",
+      "twitter": "https://x.com/SolvProtocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SolvProtocol",
+      "dns": "app.solv.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solvbtc"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "huma",
+    "name": "Huma",
+    "verifiedDomain": "app.huma.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/huma",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Permissionless DeFi yield, powered by real-world payment flows.",
+    "fullAbout": "Permissionless DeFi yield, powered by real-world payment flows.",
+    "socials": {
+      "website": "https://app.huma.finance",
+      "twitter": "https://x.com/humafinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@humafinance",
+      "dns": "app.huma.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "huma"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "onre",
+    "name": "OnRe",
+    "verifiedDomain": "app.onre.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/onre",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Connecting on-chain capital to real-world reinsurance risk — unlocking stable, uncorrelated returns that are liquid, composable and accessib",
+    "fullAbout": "Connecting on-chain capital to real-world reinsurance risk — unlocking stable, uncorrelated returns that are liquid, composable and accessible for the first time",
+    "socials": {
+      "website": "https://app.onre.finance",
+      "twitter": "https://x.com/onrefinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@onrefinance",
+      "dns": "app.onre.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "onre"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "rockawayx",
+    "name": "RockawayX",
+    "verifiedDomain": "rockawayx.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/rockawayx",
+    "category": "DeFi",
+    "tags": [
+      "Risk Curators",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "On-chain asset manager. Risk curator on Morpho and other DeFi lending protocols. Market-neutral yield strategies for institutional and HNWI ",
+    "fullAbout": "On-chain asset manager. Risk curator on Morpho and other DeFi lending protocols. Market-neutral yield strategies for institutional and HNWI clients - stablecoins, ETH, BTC, SOL",
+    "socials": {
+      "website": "https://rockawayx.com/",
+      "twitter": "https://x.com/Rockaway_X"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Rockaway_X",
+      "dns": "rockawayx.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "rockawayx"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "forward-industries-sol",
+    "name": "Forward Industries SOL",
+    "verifiedDomain": "forwardindustries.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/forward-industries-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Staked SOL on Forward Industries, receive fwdSOL tokens.",
+    "fullAbout": "Staked SOL on Forward Industries, receive fwdSOL tokens.",
+    "socials": {
+      "website": "https://www.forwardindustries.com/",
+      "twitter": "https://x.com/FWDind"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@FWDind",
+      "dns": "forwardindustries.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "forward-industries-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "plume-vaults",
+    "name": "Plume Vaults",
+    "verifiedDomain": "app.plume.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/plume-vaults",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Plume Vaults is Plume's flagship real-world asset protocol, built to enable onchain access to real world yield through structured vaults",
+    "fullAbout": "Plume Vaults is Plume's flagship real-world asset protocol, built to enable onchain access to real world yield through structured vaults",
+    "socials": {
+      "website": "https://app.plume.org/vaults",
+      "twitter": "https://x.com/plumenetwork"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@plumenetwork",
+      "dns": "app.plume.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "plume-vaults"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "solstice",
+    "name": "Solstice",
+    "verifiedDomain": "solstice.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/solstice",
+    "category": "DeFi",
+    "tags": [
+      "Basis Trading",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Solstice is a synthetic stablecoin protocol built on Solana",
+    "fullAbout": "Solstice is a synthetic stablecoin protocol built on Solana",
+    "socials": {
+      "website": "https://solstice.finance/",
+      "twitter": "https://x.com/solsticefi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solsticefi",
+      "dns": "solstice.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solstice"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "dfdv-staked-sol",
+    "name": "DFDV Staked SOL",
+    "verifiedDomain": "defidevcorp.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/dfdv-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "dfdvSOL is a liquid staking token (LST) that represents staked SOL delegated to DFDV's validators.",
+    "fullAbout": "dfdvSOL is a liquid staking token (LST) that represents staked SOL delegated to DFDV's validators.",
+    "socials": {
+      "website": "https://defidevcorp.com/?tab=dfdvSOLcom",
+      "twitter": "https://x.com/defidevcorp"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@defidevcorp",
+      "dns": "defidevcorp.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "dfdv-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "phantom-sol",
+    "name": "Phantom SOL",
+    "verifiedDomain": "phantom.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/phantom-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "With Phantom, you can easily stake your SOL natively or opt for liquid staking—whatever suits your strategy.",
+    "fullAbout": "With Phantom, you can easily stake your SOL natively or opt for liquid staking—whatever suits your strategy.",
+    "socials": {
+      "website": "https://phantom.com/",
+      "twitter": "https://x.com/phantom"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@phantom",
+      "dns": "phantom.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "phantom-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "bybit-staked-sol",
+    "name": "Bybit Staked SOL",
+    "verifiedDomain": "bybit.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/bybit-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid Staking SOL",
+    "fullAbout": "Liquid Staking SOL",
+    "socials": {
+      "website": "https://www.bybit.com/en/web3/staking/BybitSOL",
+      "twitter": "https://x.com/Bybit_Web3"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Bybit_Web3",
+      "dns": "bybit.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bybit-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "near-bridge",
+    "name": "NEAR Bridge",
+    "verifiedDomain": "near.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/near",
+    "category": "DeFi",
+    "tags": [
+      "Canonical Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Effortlessly create and distribute innovative decentralized apps across any blockchain, while helping build a more open web, with the NEAR B",
+    "fullAbout": "Effortlessly create and distribute innovative decentralized apps across any blockchain, while helping build a more open web, with the NEAR Blockchain Operating System (BOS).",
+    "socials": {
+      "website": "https://near.org/"
+    },
+    "verificationSignals": {
+      "dns": "near.org (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "near-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "the-vault-liquid-staking",
+    "name": "The Vault Liquid Staking",
+    "verifiedDomain": "thevault.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/the-vault-liquid-staking",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "vSOL is a stake pool that supports community-focused validators. Stake with us now to support the Solana native communities! At The Vault, w",
+    "fullAbout": "vSOL is a stake pool that supports community-focused validators. Stake with us now to support the Solana native communities! At The Vault, we believe the Solana network will be the strongest if the network is secured by validators that have a large social stake in Solana. Most top validators by stake amount are not Solana focused entities, but instead represent the crypto industry in general. The Vault stake pool will strive to bring the financial stake in-line with the existing social stake of Solana-centric communities.",
+    "socials": {
+      "website": "https://thevault.finance",
+      "twitter": "https://x.com/thevaultfinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@thevaultfinance",
+      "dns": "thevault.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "the-vault-liquid-staking"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "jpool",
+    "name": "JPool",
+    "verifiedDomain": "app.jpool.one",
+    "icon": "https://icons.llamao.fi/icons/protocols/jpool",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "JPool is a stake pool on the Solana blockchain network enabling safe, secure, high-yield rewards on your staked SOL.",
+    "fullAbout": "JPool is a stake pool on the Solana blockchain network enabling safe, secure, high-yield rewards on your staked SOL.",
+    "socials": {
+      "website": "https://app.jpool.one",
+      "twitter": "https://x.com/JPoolSolana"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@JPoolSolana",
+      "dns": "app.jpool.one (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "jpool"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "renzo",
+    "name": "Renzo",
+    "verifiedDomain": "app.renzoprotocol.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/renzo",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Restaking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Renzo is an institutional-grade onchain platform for staking, restaking, and capital deployment, offering transparent, secure access to adva",
+    "fullAbout": "Renzo is an institutional-grade onchain platform for staking, restaking, and capital deployment, offering transparent, secure access to advanced yield strategies through modular products: Reserve Vaults, Staking Suite, and Enterprise Suite.",
+    "socials": {
+      "website": "https://app.renzoprotocol.com/restake",
+      "twitter": "https://x.com/RenzoProtocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@RenzoProtocol",
+      "dns": "app.renzoprotocol.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "renzo"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "sosovalue-indexes",
+    "name": "SoSoValue Indexes",
+    "verifiedDomain": "ssi.sosovalue.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/ssi",
+    "category": "DeFi",
+    "tags": [
+      "Indexes",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "The SoSoValue Indexes(SSI) Protocol is a cutting-edge spot index solution designed to make crypto investments simple and secured",
+    "fullAbout": "The SoSoValue Indexes(SSI) Protocol is a cutting-edge spot index solution designed to make crypto investments simple and secured",
+    "socials": {
+      "website": "https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY",
+      "twitter": "https://x.com/SoSoValueCrypto"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SoSoValueCrypto",
+      "dns": "ssi.sosovalue.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "sosovalue-indexes"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "helius-staked-sol",
+    "name": "Helius Staked SOL",
+    "verifiedDomain": "helius.dev",
+    "icon": "https://icons.llamao.fi/icons/protocols/helius-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid staking on Solana",
+    "fullAbout": "Liquid staking on Solana",
+    "socials": {
+      "website": "https://www.helius.dev",
+      "twitter": "https://x.com/heliuslabs"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@heliuslabs",
+      "dns": "helius.dev (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "helius-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "loopscale-lending",
+    "name": "Loopscale Lending",
+    "verifiedDomain": "loop.sl",
+    "icon": "https://icons.llamao.fi/icons/protocols/loopscale-lending",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Loopscale is a modular lending platform for the next-generation of onchain assets. Markets for any asset, at the best rate, with less risk",
+    "fullAbout": "Loopscale is a modular lending platform for the next-generation of onchain assets. Markets for any asset, at the best rate, with less risk",
+    "socials": {
+      "website": "https://loop.sl",
+      "twitter": "https://x.com/Loopscale"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Loopscale",
+      "dns": "loop.sl (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "loopscale-lending"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "blazestake",
+    "name": "BlazeStake",
+    "verifiedDomain": "stake.solblaze.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/blazestake",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "BlazeStake is an innovative liquid staking protocol designed to support the Solana ecosystem. Delegators can choose to stake their SOL eithe",
+    "fullAbout": "BlazeStake is an innovative liquid staking protocol designed to support the Solana ecosystem. Delegators can choose to stake their SOL either through the standard delegation pool (which balances stake across hundreds of validators to support decentralization) or to any validators of their choice, all while receiving the liquid staking benefits of bSOL (access to instant unstake liquidity, increased staking yields through DeFi, Solana ecosystem token airdrops, and more).",
+    "socials": {
+      "website": "https://stake.solblaze.org/",
+      "twitter": "https://x.com/solblaze_org"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solblaze_org",
+      "dns": "stake.solblaze.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "blazestake"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "jagpool-staked-sol",
+    "name": "JagPool Staked SOL",
+    "verifiedDomain": "jagpool.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/jagpool-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "JagPool Staked SOL is a liquid staking protocol on Solana that allows users to stake their SOL and earn rewards.",
+    "fullAbout": "JagPool Staked SOL is a liquid staking protocol on Solana that allows users to stake their SOL and earn rewards.",
+    "socials": {
+      "website": "https://www.jagpool.xyz/",
+      "twitter": "https://x.com/JagPool_xyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@JagPool_xyz",
+      "dns": "jagpool.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "jagpool-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "project-0",
+    "name": "Project 0",
+    "verifiedDomain": "app.0.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/project-0",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Project 0 is a DeFi-native prime brokerage that lets users borrow against their entire DeFi portfolio across multiple venues.",
+    "fullAbout": "Project 0 is a DeFi-native prime brokerage that lets users borrow against their entire DeFi portfolio across multiple venues.",
+    "socials": {
+      "website": "https://app.0.xyz",
+      "twitter": "https://x.com/project0"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@project0",
+      "dns": "app.0.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "project-0"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "unitas-usdu",
+    "name": "Unitas USDu",
+    "verifiedDomain": "app.unitas.so",
+    "icon": "https://icons.llamao.fi/icons/protocols/unitas-usdu",
+    "category": "DeFi",
+    "tags": [
+      "Basis Trading",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Unitas is a decentralized, yield-bearing stablecoin protocol built for the next generation of finance. It issues stablecoins that earn yield",
+    "fullAbout": "Unitas is a decentralized, yield-bearing stablecoin protocol built for the next generation of finance. It issues stablecoins that earn yield natively — no reliance on traditional banks. Powered by Solana, it's fast, scalable, and censorship-resistant",
+    "socials": {
+      "website": "https://app.unitas.so",
+      "twitter": "https://x.com/UnitasLabs"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@UnitasLabs",
+      "dns": "app.unitas.so (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "unitas-usdu"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "stkesol-by-sol-strategies",
+    "name": "STKESOL by SOL Strategies",
+    "verifiedDomain": "app.solstrategies.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/stkesol-by-sol-strategies",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid staked SOL backed by SOL Strategies' (Nasdaq:STKE|CSE:HODL) compliant infrastructure.",
+    "fullAbout": "Liquid staked SOL backed by SOL Strategies' (Nasdaq:STKE|CSE:HODL) compliant infrastructure.",
+    "socials": {
+      "website": "https://app.solstrategies.io",
+      "twitter": "https://x.com/solstrategies"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solstrategies",
+      "dns": "app.solstrategies.io (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "stkesol-by-sol-strategies"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "exponent-yield-exchange",
+    "name": "Exponent Yield Exchange",
+    "verifiedDomain": "exponent.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/exponent-yield-exchange",
+    "category": "DeFi",
+    "tags": [
+      "Yield",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Exponent is a yield exchange protocol on Solana for fixed-rate and leveraged yield farming",
+    "fullAbout": "Exponent is a yield exchange protocol on Solana for fixed-rate and leveraged yield farming",
+    "socials": {
+      "website": "https://www.exponent.finance/",
+      "twitter": "https://x.com/ExponentFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ExponentFinance",
+      "dns": "exponent.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "exponent-yield-exchange"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "bitget-sol",
+    "name": "Bitget SOL",
+    "verifiedDomain": "bitget.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/bitget-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Earn daily profits without risking your principal! Your returns are based on on-chain staking, and if the on-chain ROI changes, the APR will",
+    "fullAbout": "Earn daily profits without risking your principal! Your returns are based on on-chain staking, and if the on-chain ROI changes, the APR will adjust accordingly.",
+    "socials": {
+      "website": "https://www.bitget.com/price/solana/staking",
+      "twitter": "https://x.com/bitget"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@bitget",
+      "dns": "bitget.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bitget-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "kaio",
+    "name": "KAIO",
+    "verifiedDomain": "kaio.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/kaio",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "KAIO (previous Libre Capital) enables regulated RWAs to thrive in permissionless finance while ensuring seamless compliance, interoperabilit",
+    "fullAbout": "KAIO (previous Libre Capital) enables regulated RWAs to thrive in permissionless finance while ensuring seamless compliance, interoperability, and liquidity access.",
+    "socials": {
+      "website": "https://www.kaio.xyz/",
+      "twitter": "https://x.com/KAIO_xyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@KAIO_xyz",
+      "dns": "kaio.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "kaio"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "hylo-protocol",
+    "name": "Hylo Protocol",
+    "verifiedDomain": "hylo.so",
+    "icon": "https://icons.llamao.fi/icons/protocols/hylo-protocol",
+    "category": "DeFi",
+    "tags": [
+      "Dual-Token Stablecoin",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Hylo splits yield-bearing assets into two complementary products: hyUSD - a stable USD-denominated asset with access to sustainable yield, a",
+    "fullAbout": "Hylo splits yield-bearing assets into two complementary products: hyUSD - a stable USD-denominated asset with access to sustainable yield, and xSOL - leveraged SOL exposure with zero liquidation risk and no funding costs. Users can deposit LSTs to mint either asset",
+    "socials": {
+      "website": "https://hylo.so",
+      "twitter": "https://x.com/hylo_so"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@hylo_so",
+      "dns": "hylo.so (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "hylo-protocol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "definity-staked-sol",
+    "name": "Definity Staked SOL",
+    "verifiedDomain": "definity.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/definity-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Stake SOL on Definity, receive definSOL tokens.",
+    "fullAbout": "Stake SOL on Definity, receive definSOL tokens.",
+    "socials": {
+      "website": "https://www.definity.finance/",
+      "twitter": "https://x.com/RealDefinity"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@RealDefinity",
+      "dns": "definity.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "definity-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "cryptocom-liquid-staking",
+    "name": "Crypto.com Liquid Staking",
+    "verifiedDomain": "crypto.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/crypto.com-staked-eth",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid staking is available for ETH and Solana! Earn rewards and receive tradeable CDCETH and CDCSOL",
+    "fullAbout": "Liquid staking is available for ETH and Solana! Earn rewards and receive tradeable CDCETH and CDCSOL",
+    "socials": {
+      "website": "https://crypto.com/staking",
+      "twitter": "https://x.com/cryptocom"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@cryptocom",
+      "dns": "crypto.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "crypto.com-liquid-staking"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "lulo",
+    "name": "Lulo",
+    "verifiedDomain": "lulo.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/lulo",
+    "category": "DeFi",
+    "tags": [
+      "Yield Aggregator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Lulo is a decentralized lending aggregator, which automatically optimizes users deposits by migrating their deposits to the lending pool wit",
+    "fullAbout": "Lulo is a decentralized lending aggregator, which automatically optimizes users deposits by migrating their deposits to the lending pool with the best yield, while allowing for personalized risk settings",
+    "socials": {
+      "website": "https://lulo.fi/",
+      "twitter": "https://x.com/uselulo"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@uselulo",
+      "dns": "lulo.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "lulo"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "adrastea-validator",
+    "name": "Adrastea Validator",
+    "verifiedDomain": "adrastea.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/adrastea-validator",
+    "category": "DeFi",
+    "tags": [
+      "Staking Pool",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "On-chain staking of user deposits with the Adrastea validator",
+    "fullAbout": "On-chain staking of user deposits with the Adrastea validator",
+    "socials": {
+      "website": "https://adrastea.fi/",
+      "twitter": "https://x.com/AdrasteaFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@AdrasteaFinance",
+      "dns": "adrastea.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "adrastea-validator"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "pacifica-bridge",
+    "name": "Pacifica Bridge",
+    "verifiedDomain": "app.pacifica.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/pacifica-bridge",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Pacifica's Solana deposit and withdrawal bridge holds the assets backing user balances on the exchange",
+    "fullAbout": "Pacifica's Solana deposit and withdrawal bridge holds the assets backing user balances on the exchange",
+    "socials": {
+      "website": "https://app.pacifica.fi",
+      "twitter": "https://x.com/pacifica_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@pacifica_fi",
+      "dns": "app.pacifica.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "pacifica-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "gmx-solana",
+    "name": "GMX Solana",
+    "verifiedDomain": "gmtrade.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/gmtrade",
+    "category": "Trading",
+    "tags": [
+      "Derivatives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "GMTrade is a perpetual DEX built on Solana that supports both crypto and RWA markets. The protocol utilizes isolated liquidity pools combine",
+    "fullAbout": "GMTrade is a perpetual DEX built on Solana that supports both crypto and RWA markets. The protocol utilizes isolated liquidity pools combined with a cross-pool coordination system that optimizes liquidity utilization. It aims to provide a seamless trading experience with fast execution and low fees while maintaining security and decentralization.",
+    "socials": {
+      "website": "https://gmtrade.xyz",
+      "twitter": "https://x.com/gmtrade_xyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@gmtrade_xyz",
+      "dns": "gmtrade.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "gmx-solana"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "neutral-trade",
+    "name": "Neutral Trade",
+    "verifiedDomain": "neutral.trade",
+    "icon": "https://icons.llamao.fi/icons/protocols/neutral-trade",
+    "category": "DeFi",
+    "tags": [
+      "Onchain Capital Allocator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Neutral Trade is the on-chain multi-strategy hedge fund, built by experienced quants and traders from Goldman Sachs and Top Global Hedge Fun",
+    "fullAbout": "Neutral Trade is the on-chain multi-strategy hedge fund, built by experienced quants and traders from Goldman Sachs and Top Global Hedge Funds",
+    "socials": {
+      "website": "https://www.neutral.trade/",
+      "twitter": "https://x.com/TradeNeutral"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@TradeNeutral",
+      "dns": "neutral.trade (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "neutral-trade"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "japan-staked-sol",
+    "name": "Japan Staked SOL",
+    "verifiedDomain": "japansol.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/japan-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "japanSOL is a Solana liquid staking token issued jointly by Allied Architects, Dawn Labs and DeFi Development Corp., built on Sanctum and tr",
+    "fullAbout": "japanSOL is a Solana liquid staking token issued jointly by Allied Architects, Dawn Labs and DeFi Development Corp., built on Sanctum and tradable on Jupiter",
+    "socials": {
+      "website": "https://japansol.com/"
+    },
+    "verificationSignals": {
+      "dns": "japansol.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "japan-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "orderly-bridge",
+    "name": "Orderly Bridge",
+    "verifiedDomain": "orderly.network",
+    "icon": "https://icons.llamao.fi/icons/protocols/orderly-bridge",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Orderly is an omnichain CLOB infrastructure.It’s the ultimate trading lego for seamless integration by any builder on any blockchain. Give y",
+    "fullAbout": "Orderly is an omnichain CLOB infrastructure.It’s the ultimate trading lego for seamless integration by any builder on any blockchain. Give your app the transparency and composability of DEXs, with the speed and performance of CEXs.",
+    "socials": {
+      "website": "https://orderly.network",
+      "twitter": "https://x.com/OrderlyNetwork"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@OrderlyNetwork",
+      "dns": "orderly.network (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "orderly-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "perena-vaults",
+    "name": "Perena Vaults",
+    "verifiedDomain": "app.perena.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/perena-vaults",
+    "category": "DeFi",
+    "tags": [
+      "Onchain Capital Allocator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Perena is a stablebank offering USD STAR (USD*), a digital dollar that automatically accrues value from real yield sources, including delta-",
+    "fullAbout": "Perena is a stablebank offering USD STAR (USD*), a digital dollar that automatically accrues value from real yield sources, including delta-neutral strategies, secured lending, and stablecoins.",
+    "socials": {
+      "website": "https://app.perena.org/?ref=ILPYAL",
+      "twitter": "https://x.com/perena"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@perena",
+      "dns": "app.perena.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "perena-vaults"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "raiku-staked-sol",
+    "name": "Raiku Staked SOL",
+    "verifiedDomain": "stake.raiku.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/raiku-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Raiku Staked SOL (rkuSOL) is the liquid staking token of Raiku, a Solana blockspace-auction network; stakers earn staking rewards + MEV + bl",
+    "fullAbout": "Raiku Staked SOL (rkuSOL) is the liquid staking token of Raiku, a Solana blockspace-auction network; stakers earn staking rewards + MEV + blockspace auction revenue.",
+    "socials": {
+      "website": "https://stake.raiku.com",
+      "twitter": "https://x.com/Raikucom"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Raikucom",
+      "dns": "stake.raiku.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "raiku-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "futarchy-amm",
+    "name": "Futarchy AMM",
+    "verifiedDomain": "metadao.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/futarchy-amm",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Raise money while putting ownership into the hands of your early users and believers.",
+    "fullAbout": "Raise money while putting ownership into the hands of your early users and believers.",
+    "socials": {
+      "website": "https://metadao.fi",
+      "twitter": "https://x.com/MetaDAOProject"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MetaDAOProject",
+      "dns": "metadao.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "futarchy-amm"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "realms",
+    "name": "Realms",
+    "verifiedDomain": "v2.realms.today",
+    "icon": "https://icons.llamao.fi/icons/protocols/realms",
+    "category": "DeFi",
+    "tags": [
+      "Governance Incentives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "SPL Governance is a program which provides core building blocks and primitives to create Decentralized Autonomous Organizations (DAOs) on th",
+    "fullAbout": "SPL Governance is a program which provides core building blocks and primitives to create Decentralized Autonomous Organizations (DAOs) on the Solana blockchain. The program is DAO type and asset type agnostic and can be used to build any type of DAOs which can own and manage any type of assets",
+    "socials": {
+      "website": "https://v2.realms.today/",
+      "twitter": "https://x.com/realmsdaos"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@realmsdaos",
+      "dns": "v2.realms.today (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "realms"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "hubra-staked-sol",
+    "name": "Hubra Staked SOL",
+    "verifiedDomain": "hubra.app",
+    "icon": "https://icons.llamao.fi/icons/protocols/hubra-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "SOL liquid staking on Hubra",
+    "fullAbout": "SOL liquid staking on Hubra",
+    "socials": {
+      "website": "https://www.hubra.app",
+      "twitter": "https://x.com/SolanaHubApp"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@SolanaHubApp",
+      "dns": "hubra.app (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "hubra-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "kyros",
+    "name": "Kyros",
+    "verifiedDomain": "kyros.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/kyros",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Restaking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Kyros is a liquid restaking protocol built on Jito (Re)staking, offering uncapped yield potential through its liquid restaking token, kySOL.",
+    "fullAbout": "Kyros is a liquid restaking protocol built on Jito (Re)staking, offering uncapped yield potential through its liquid restaking token, kySOL. As a yield-bearing asset on Solana, kySOL consolidates staking rewards, MEV rewards, and restaking rewards into a single token for optimized returns.",
+    "socials": {
+      "website": "https://kyros.fi",
+      "twitter": "https://x.com/KyrosFi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@KyrosFi",
+      "dns": "kyros.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "kyros"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "streamflow",
+    "name": "Streamflow",
+    "verifiedDomain": "streamflow.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/streamflow",
+    "category": "DeFi",
+    "tags": [
+      "Payments",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Streamflow exponentially grows on-chain economies by providing infrastructure for creation, distribution, and incentive alignment of tokens.",
+    "fullAbout": "Streamflow exponentially grows on-chain economies by providing infrastructure for creation, distribution, and incentive alignment of tokens.",
+    "socials": {
+      "website": "https://streamflow.finance",
+      "twitter": "https://x.com/streamflow_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@streamflow_fi",
+      "dns": "streamflow.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "streamflow"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "byreal",
+    "name": "Byreal",
+    "verifiedDomain": "byreal.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/byreal",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Byreal is the ultimate liquidity layer built for real assets, delivering unmatched liquidity for users. It integrates DEX, Launch, and Vault",
+    "fullAbout": "Byreal is the ultimate liquidity layer built for real assets, delivering unmatched liquidity for users. It integrates DEX, Launch, and Vault into a unified smart routing architecture, forming a full-cycle growth engine that supports asset discovery, trading, and yield generation on Solana",
+    "socials": {
+      "website": "https://www.byreal.io/",
+      "twitter": "https://x.com/byreal_io"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@byreal_io",
+      "dns": "byreal.io (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "byreal"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "manifest-trade",
+    "name": "Manifest Trade",
+    "verifiedDomain": "manifest.trade",
+    "icon": "https://icons.llamao.fi/icons/protocols/manifest-trade",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Manifest is the 3rd generation CLOB DEX on Solana, the spiritual successor to Openbook and Serum.",
+    "fullAbout": "Manifest is the 3rd generation CLOB DEX on Solana, the spiritual successor to Openbook and Serum.",
+    "socials": {
+      "website": "https://manifest.trade/",
+      "twitter": "https://x.com/ManifestTrade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ManifestTrade",
+      "dns": "manifest.trade (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "manifest-trade"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "solomon-usdv",
+    "name": "Solomon USDv",
+    "verifiedDomain": "solomonlabs.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/solomon-usdv",
+    "category": "DeFi",
+    "tags": [
+      "Basis Trading",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Solomon USDv is a Solana-native digital dollar fully backed 1:1 by short-dated U.S. Treasuries and cash reserves. It remains liquid and comp",
+    "fullAbout": "Solomon USDv is a Solana-native digital dollar fully backed 1:1 by short-dated U.S. Treasuries and cash reserves. It remains liquid and composable across wallets and DeFi protocols without staking or wrapping",
+    "socials": {
+      "website": "https://solomonlabs.org/",
+      "twitter": "https://x.com/solomon_labs"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solomon_labs",
+      "dns": "solomonlabs.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solomon-usdv"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "solayer-restaking",
+    "name": "Solayer Restaking",
+    "verifiedDomain": "solayer.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/solayer-restaking",
+    "category": "DeFi",
+    "tags": [
+      "Restaking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "sSOL is the universal liquidity layer for delegates [dApps] and LRTs on Solayer. Every unit of SOL can be perceived as a unit of blockspace ",
+    "fullAbout": "sSOL is the universal liquidity layer for delegates [dApps] and LRTs on Solayer. Every unit of SOL can be perceived as a unit of blockspace lent towards dApps, securing network bandwidth and TPS.",
+    "socials": {
+      "website": "https://solayer.org",
+      "twitter": "https://x.com/solayer_labs"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@solayer_labs",
+      "dns": "solayer.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "solayer-restaking"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "bulk",
+    "name": "BULK",
+    "verifiedDomain": "bulk.trade",
+    "icon": "https://icons.llamao.fi/icons/protocols/bulk",
+    "category": "Trading",
+    "tags": [
+      "Derivatives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "BULK is a Solana perpetuals DEX built for ultra-low-latency derivatives trading with sub-20ms matching and high-throughput execution",
+    "fullAbout": "BULK is a Solana perpetuals DEX built for ultra-low-latency derivatives trading with sub-20ms matching and high-throughput execution",
+    "socials": {
+      "website": "https://www.bulk.trade/",
+      "twitter": "https://x.com/bulktrade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@bulktrade",
+      "dns": "bulk.trade (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bulk"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "turboflow-perps",
+    "name": "TurboFlow Perps",
+    "verifiedDomain": "tf.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/turboflow-perps",
+    "category": "Trading",
+    "tags": [
+      "Derivatives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "TurboFlow is an on-chain trading ecosystem focusing on the convergence of Perpetual Contracts and Prediction Markets. Everyone gets a seat a",
+    "fullAbout": "TurboFlow is an on-chain trading ecosystem focusing on the convergence of Perpetual Contracts and Prediction Markets. Everyone gets a seat at TurboFlow.",
+    "socials": {
+      "website": "https://www.tf.xyz/",
+      "twitter": "https://x.com/TurboFlow_xyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@TurboFlow_xyz",
+      "dns": "tf.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "turboflow-perps"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "bonk-staked-sol",
+    "name": "Bonk Staked SOL",
+    "verifiedDomain": "bonkcoin.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/bonk-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid staking on Solana",
+    "fullAbout": "Liquid staking on Solana",
+    "socials": {
+      "website": "https://bonkcoin.com",
+      "twitter": "https://x.com/bonk_inu"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@bonk_inu",
+      "dns": "bonkcoin.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bonk-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "mezzanine",
+    "name": "Mezzanine",
+    "verifiedDomain": "mezz.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/mezzanine",
+    "category": "DeFi",
+    "tags": [
+      "Yield",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Structured yield protocol offering senior and junior tranches with different risk and return profiles.",
+    "fullAbout": "Structured yield protocol offering senior and junior tranches with different risk and return profiles.",
+    "socials": {
+      "website": "https://mezz.finance/",
+      "twitter": "https://x.com/mezzanine_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@mezzanine_fi",
+      "dns": "mezz.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "mezzanine"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "mansory",
+    "name": "Mansory",
+    "verifiedDomain": "mansory.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/mansory",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Mansory Token (MNSRY) is a branded utility token empowering holders with tiered luxury benefits like VIP events, NFT-authenticated assets, a",
+    "fullAbout": "Mansory Token (MNSRY) is a branded utility token empowering holders with tiered luxury benefits like VIP events, NFT-authenticated assets, and lifestyle rewards—anchored in the Mansory automotive world.",
+    "socials": {
+      "website": "https://www.mansory.com/",
+      "twitter": "https://x.com/MANSORYofficial"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@MANSORYofficial",
+      "dns": "mansory.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "mansory"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "wan-bridge",
+    "name": "Wan Bridge",
+    "verifiedDomain": "bridge.wanchain.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/wan-bridge",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Wanchain, the Wide Area Network chain, is the worlds premier decentralised blockchain interoperability solution.",
+    "fullAbout": "Wanchain, the Wide Area Network chain, is the worlds premier decentralised blockchain interoperability solution.",
+    "socials": {
+      "website": "https://bridge.wanchain.org",
+      "twitter": "https://x.com/wanchain_org"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@wanchain_org",
+      "dns": "bridge.wanchain.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "wan-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "quarry",
+    "name": "Quarry",
+    "verifiedDomain": "quarry.so",
+    "icon": "https://icons.llamao.fi/icons/protocols/quarry",
+    "category": "DeFi",
+    "tags": [
+      "Yield",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Quarry is an open protocol for launching liquidity mining programs.",
+    "fullAbout": "Quarry is an open protocol for launching liquidity mining programs.",
+    "socials": {
+      "website": "https://quarry.so",
+      "twitter": "https://x.com/quarryprotocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@quarryprotocol",
+      "dns": "quarry.so (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "quarry"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "vectis-finance",
+    "name": "Vectis Finance",
+    "verifiedDomain": "vectis.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/vectis-finance",
+    "category": "DeFi",
+    "tags": [
+      "Yield",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Vectis is the premier platform for high-yield, low-risk opportunities on Solana, designed for both seasoned DeFi enthusiasts and newcomers.",
+    "fullAbout": "Vectis is the premier platform for high-yield, low-risk opportunities on Solana, designed for both seasoned DeFi enthusiasts and newcomers.",
+    "socials": {
+      "website": "https://vectis.finance",
+      "twitter": "https://x.com/vectis_finance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@vectis_finance",
+      "dns": "vectis.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "vectis-finance"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "dooar-v2",
+    "name": "DOOAR V2",
+    "verifiedDomain": "beta.dooar.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/dooar-v2",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "DOOAR is a multi-chain DEX built by Find Satoshi Lab for STEPN users and beyond.",
+    "fullAbout": "DOOAR is a multi-chain DEX built by Find Satoshi Lab for STEPN users and beyond.",
+    "socials": {
+      "website": "https://beta.dooar.com/swap",
+      "twitter": "https://x.com/Dooarofficial"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Dooarofficial",
+      "dns": "beta.dooar.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "dooar-v2"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "standx-bridge",
+    "name": "StandX Bridge",
+    "verifiedDomain": "standx.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/standx-bridge",
+    "category": "DeFi",
+    "tags": [
+      "Canonical Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "StandX is a Perps DEX live on Mainnet across BNB and Solana, powered by its native yield bearing DUSD.",
+    "fullAbout": "StandX is a Perps DEX live on Mainnet across BNB and Solana, powered by its native yield bearing DUSD.",
+    "socials": {
+      "website": "https://standx.com/referral?code=defillama",
+      "twitter": "https://x.com/StandX_Official"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@StandX_Official",
+      "dns": "standx.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "standx-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "bumpin-trade",
+    "name": "Bumpin Trade",
+    "verifiedDomain": "bumpin.trade",
+    "icon": "https://icons.llamao.fi/icons/protocols/bumpin-trade",
+    "category": "Trading",
+    "tags": [
+      "Derivatives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Built on the Solana blockchain, Bumpin Exchange bridges the gap between traditional centralized exchanges (CEX) and decentralized exchanges ",
+    "fullAbout": "Built on the Solana blockchain, Bumpin Exchange bridges the gap between traditional centralized exchanges (CEX) and decentralized exchanges (DEX). Not just a trading platform, but a full-featured decentralized finance ecosystem. With features like a unified account, coin-margined futures trading, wealth management, copy trading bots, and strategy bots, offer a one-stop solution for trading and asset management.",
+    "socials": {
+      "website": "https://www.bumpin.trade/",
+      "twitter": "https://x.com/BumpinTrade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@BumpinTrade",
+      "dns": "bumpin.trade (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bumpin-trade"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "ribbon",
+    "name": "Ribbon",
+    "verifiedDomain": "ribbon.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/ribbon-finance",
+    "category": "Trading",
+    "tags": [
+      "Options Vault",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Structured products protocol",
+    "fullAbout": "Structured products protocol",
+    "socials": {
+      "website": "https://www.ribbon.finance/",
+      "twitter": "https://x.com/ribbonfinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ribbonfinance",
+      "dns": "ribbon.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "ribbon"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "reflect-tranches",
+    "name": "Reflect Tranches",
+    "verifiedDomain": "tranches.reflect.money",
+    "icon": "https://icons.llamao.fi/icons/protocols/reflect-tranches",
+    "category": "DeFi",
+    "tags": [
+      "Yield",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Tranches splits a yield-bearing token into a senior tranche (protected, moderate yield) and a junior tranche (amplified yield, absorbs losse",
+    "fullAbout": "Tranches splits a yield-bearing token into a senior tranche (protected, moderate yield) and a junior tranche (amplified yield, absorbs losses first) across the Reflect Proxy Program and the RLP insurance pool.",
+    "socials": {
+      "website": "https://tranches.reflect.money/",
+      "twitter": "https://x.com/reflectmoney"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@reflectmoney",
+      "dns": "tranches.reflect.money (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "reflect-tranches"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "oro-finance",
+    "name": "Oro Finance",
+    "verifiedDomain": "app.oro.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/oro-finance",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Yield-generating digital gold on Solana.",
+    "fullAbout": "Yield-generating digital gold on Solana.",
+    "socials": {
+      "website": "https://app.oro.finance/",
+      "twitter": "https://x.com/orogoldapp"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@orogoldapp",
+      "dns": "app.oro.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "oro-finance"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "stronghold-staked-sol",
+    "name": "Stronghold Staked SOL",
+    "verifiedDomain": "strongholdsol.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/stronghold-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Native and LST (StrongSOL) on Solana",
+    "fullAbout": "Native and LST (StrongSOL) on Solana",
+    "socials": {
+      "website": "https://strongholdsol.com/",
+      "twitter": "https://x.com/StrongholdSOL"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@StrongholdSOL",
+      "dns": "strongholdsol.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "stronghold-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "nirvana-v2",
+    "name": "Nirvana V2",
+    "verifiedDomain": "nirvana.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/nirvana-v2",
+    "category": "DeFi",
+    "tags": [
+      "Reserve Currency",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Anchored by an algorithm-owned reserve, the Nirvana platform guarantees a floor price for ANA that permanently ascends with demand, while NI",
+    "fullAbout": "Anchored by an algorithm-owned reserve, the Nirvana platform guarantees a floor price for ANA that permanently ascends with demand, while NIRV provides zero-risk credit. Together the pair harmonizes risk with reward, and transforms digital assets into durable wealth",
+    "socials": {
+      "website": "https://www.nirvana.finance/",
+      "twitter": "https://x.com/nirvana_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@nirvana_fi",
+      "dns": "nirvana.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "nirvana-v2"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "synatra",
+    "name": "Synatra",
+    "verifiedDomain": "synatra.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/synatra",
+    "category": "DeFi",
+    "tags": [
+      "Yield Aggregator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Synatra is a synthetic staking protocol providing a UX that feels traditional to traditional receipt token staking. The value accrued is ach",
+    "fullAbout": "Synatra is a synthetic staking protocol providing a UX that feels traditional to traditional receipt token staking. The value accrued is achieved using various on-chain strategies such as lending, basis farming, and other automation instead of conventional staking via validators.                ",
+    "socials": {
+      "website": "https://synatra.xyz",
+      "twitter": "https://x.com/synatraxyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@synatraxyz",
+      "dns": "synatra.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "synatra"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "byzanlink-rwa-markets",
+    "name": "Byzanlink RWA Markets",
+    "verifiedDomain": "markets.byzanlink.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/byzanlink-rwa-markets",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Byzanlink RWA Markets is a decentralised, non-custodial RWA yield platform where users access curated tokenised real-world yield strategies ",
+    "fullAbout": "Byzanlink RWA Markets is a decentralised, non-custodial RWA yield platform where users access curated tokenised real-world yield strategies through standardised onchain vaults.",
+    "socials": {
+      "website": "https://markets.byzanlink.com",
+      "twitter": "https://x.com/byzanlink"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@byzanlink",
+      "dns": "markets.byzanlink.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "byzanlink-rwa-markets"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "lantern-staked-sol",
+    "name": "Lantern Staked SOL",
+    "verifiedDomain": "lantern.one",
+    "icon": "https://icons.llamao.fi/icons/protocols/lantern-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Lantern Staked SOL is a liquid staking protocol on Solana that allows users to stake their SOL and earn rewards.",
+    "fullAbout": "Lantern Staked SOL is a liquid staking protocol on Solana that allows users to stake their SOL and earn rewards.",
+    "socials": {
+      "website": "https://www.lantern.one/",
+      "twitter": "https://x.com/LanternStake"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@LanternStake",
+      "dns": "lantern.one (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "lantern-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "pascal",
+    "name": "Pascal",
+    "verifiedDomain": "pascal.trade",
+    "icon": "https://icons.llamao.fi/icons/protocols/pascal",
+    "category": "DeFi",
+    "tags": [
+      "Prediction Market",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Pascal is a noncustodial prediction market exchange on Solana.",
+    "fullAbout": "Pascal is a noncustodial prediction market exchange on Solana.",
+    "socials": {
+      "website": "https://www.pascal.trade",
+      "twitter": "https://x.com/pascaldottrade"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@pascaldottrade",
+      "dns": "pascal.trade (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "pascal"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "privacy-cash",
+    "name": "Privacy Cash",
+    "verifiedDomain": "privacycash.org",
+    "icon": "https://icons.llamao.fi/icons/protocols/privacy-cash",
+    "category": "DeFi",
+    "tags": [
+      "Privacy",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Privacy Cash allows users to transfer SOL privately",
+    "fullAbout": "Privacy Cash allows users to transfer SOL privately",
+    "socials": {
+      "website": "https://privacycash.org/",
+      "twitter": "https://x.com/theprivacycash"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@theprivacycash",
+      "dns": "privacycash.org (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "privacy-cash"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "fragmetric",
+    "name": "Fragmetric",
+    "verifiedDomain": "fragmetric.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/fragmetric",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Restaking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Fragmetric is a native liquid restaking protocol on Solana that aims to improve the economic potential and security of the Solana ecosystem.",
+    "fullAbout": "Fragmetric is a native liquid restaking protocol on Solana that aims to improve the economic potential and security of the Solana ecosystem. Fragmetric succeeded in carrying out NCN reward distribution by utilizing Solana's token extension. Additionally, Fragmetric created useful solutions, such as the Normalized Token Program, for utilizing various LSTs in restaking platforms. The goal of Fragmetric is to create a safe, open, and incredibly effective restaking system that empowers users and supports the stability of the Solana restaking ecosystem.",
+    "socials": {
+      "website": "https://fragmetric.xyz",
+      "twitter": "https://x.com/fragmetric"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@fragmetric",
+      "dns": "fragmetric.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "fragmetric"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "pico-staked-sol",
+    "name": "Pico Staked SOL",
+    "verifiedDomain": "pico-sol.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/pico-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "pico.sol is a LST dashboard in Solana",
+    "fullAbout": "pico.sol is a LST dashboard in Solana",
+    "socials": {
+      "website": "https://pico-sol.com",
+      "twitter": "https://x.com/pico__sol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@pico__sol",
+      "dns": "pico-sol.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "pico-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "hubble",
+    "name": "Hubble",
+    "verifiedDomain": "hubbleprotocol.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/hubble",
+    "category": "DeFi",
+    "tags": [
+      "CDP",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Hubble's Phase 1 launches a Solana native crypto-backed stablecoin, USDH, that earns users a yield on their multi-asset collateral. Phases 2",
+    "fullAbout": "Hubble's Phase 1 launches a Solana native crypto-backed stablecoin, USDH, that earns users a yield on their multi-asset collateral. Phases 2 and 3 will launch DeFi structured products and undercollateralized loans.",
+    "socials": {
+      "website": "https://hubbleprotocol.io",
+      "twitter": "https://x.com/HubbleProtocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@HubbleProtocol",
+      "dns": "hubbleprotocol.io (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "hubble"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "piggybank",
+    "name": "PiggyBank",
+    "verifiedDomain": "piggybank.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/piggybank",
+    "category": "DeFi",
+    "tags": [
+      "Yield",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "PiggyBank offers extra yield on tokenized stocks. Earn additional yield on digital assets through systematic strategies, compounded every 48",
+    "fullAbout": "PiggyBank offers extra yield on tokenized stocks. Earn additional yield on digital assets through systematic strategies, compounded every 48 hours.",
+    "socials": {
+      "website": "https://piggybank.fi",
+      "twitter": "https://x.com/piggybank_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@piggybank_fi",
+      "dns": "piggybank.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "piggybank"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "n1-exchange-bridge",
+    "name": "N1 Exchange Bridge",
+    "verifiedDomain": "app.n1.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/n1-exchange-bridge",
+    "category": "DeFi",
+    "tags": [
+      "Bridge",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "High-performance perpetual futures exchange built on N1",
+    "fullAbout": "High-performance perpetual futures exchange built on N1",
+    "socials": {
+      "website": "https://app.n1.xyz/",
+      "twitter": "https://x.com/N1Chain"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@N1Chain",
+      "dns": "app.n1.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "n1-exchange-bridge"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "katana",
+    "name": "Katana",
+    "verifiedDomain": "app.katana.so",
+    "icon": "https://icons.llamao.fi/icons/protocols/katana",
+    "category": "Trading",
+    "tags": [
+      "Options Vault",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Katana is a yield generation protocol on Solana designed to generate sustainable yield from automated option strategies.",
+    "fullAbout": "Katana is a yield generation protocol on Solana designed to generate sustainable yield from automated option strategies.",
+    "socials": {
+      "website": "https://app.katana.so",
+      "twitter": "https://x.com/Katana_HQ"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Katana_HQ",
+      "dns": "app.katana.so (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "katana"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "alphaq",
+    "name": "AlphaQ",
+    "verifiedDomain": "alphaq.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/alphaq",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Prop AMM on Solana.",
+    "fullAbout": "Prop AMM on Solana.",
+    "socials": {
+      "website": "https://www.alphaq.xyz/"
+    },
+    "verificationSignals": {
+      "dns": "alphaq.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "alphaq"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "laine-sol",
+    "name": "Laine SOL",
+    "verifiedDomain": "stake.laine.one",
+    "icon": "https://icons.llamao.fi/icons/protocols/laine-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Liquid Staking token on Solana chain",
+    "fullAbout": "Liquid Staking token on Solana chain",
+    "socials": {
+      "website": "https://stake.laine.one",
+      "twitter": "https://x.com/laine_sa_"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@laine_sa_",
+      "dns": "stake.laine.one (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "laine-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "diversifi",
+    "name": "DiversiFi",
+    "verifiedDomain": "diversifi.trade",
+    "icon": "https://icons.llamao.fi/icons/protocols/diversifi",
+    "category": "DeFi",
+    "tags": [
+      "Indexes",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "DiversiFi provides onchain portfolio vaults that hold baskets of tokens and automatically rebalance them toward predefined target weights as",
+    "fullAbout": "DiversiFi provides onchain portfolio vaults that hold baskets of tokens and automatically rebalance them toward predefined target weights as prices move",
+    "socials": {
+      "website": "https://diversifi.trade/",
+      "twitter": "https://x.com/useDiversiFi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@useDiversiFi",
+      "dns": "diversifi.trade (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "diversifi"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "starke-staked-sol",
+    "name": "Starke Staked SOL",
+    "verifiedDomain": "starke.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/starke-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Starke Staked SOL is a liquid staking protocol on Solana that allows users to stake their SOL and earn rewards.",
+    "fullAbout": "Starke Staked SOL is a liquid staking protocol on Solana that allows users to stake their SOL and earn rewards.",
+    "socials": {
+      "website": "https://starke.finance/rksol",
+      "twitter": "https://x.com/StarkeFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@StarkeFinance",
+      "dns": "starke.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "starke-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "sat-rush",
+    "name": "Sat Rush",
+    "verifiedDomain": "satrush.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/sat-rush",
+    "category": "DeFi",
+    "tags": [
+      "Gamified Mining",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Gamified Bitcoin Mining on Solana",
+    "fullAbout": "Gamified Bitcoin Mining on Solana",
+    "socials": {
+      "website": "https://satrush.io",
+      "twitter": "https://x.com/satrushio"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@satrushio",
+      "dns": "satrush.io (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "sat-rush"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "doublezero-staked-sol",
+    "name": "DoubleZero Staked SOL",
+    "verifiedDomain": "doublezero.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/doublezero-staked-sol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Staking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "DoubleZero Staked SOL is a staking pool on the Solana network that allows users to stake their SOL and earn rewards.",
+    "fullAbout": "DoubleZero Staked SOL is a staking pool on the Solana network that allows users to stake their SOL and earn rewards.",
+    "socials": {
+      "website": "https://doublezero.xyz/",
+      "twitter": "https://x.com/doublezero"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@doublezero",
+      "dns": "doublezero.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "doublezero-staked-sol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "defituna-amm",
+    "name": "DefiTuna AMM",
+    "verifiedDomain": "defituna.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/defituna-dex",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "DefiTuna is unique in that it is the only AMM that has built-in on-chain limit orders integrated with the ability to also use leverage for p",
+    "fullAbout": "DefiTuna is unique in that it is the only AMM that has built-in on-chain limit orders integrated with the ability to also use leverage for providing liquidity. Its technology utilizes limit orders and concentrated liquidity and makes it available in orderbook style, making it a unique AMM design.",
+    "socials": {
+      "website": "https://defituna.com",
+      "twitter": "https://x.com/DeFiTuna"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@DeFiTuna",
+      "dns": "defituna.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "defituna-amm"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "exceed-finance-exusdc",
+    "name": "Exceed Finance exUSDC",
+    "verifiedDomain": "exceed.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/exceed-finance-exusdc",
+    "category": "DeFi",
+    "tags": [
+      "RWA",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Exceed is a private credit company. It invests in US loans, bonds and reinsurance and pays holders of its digital notes a stated rate, credi",
+    "fullAbout": "Exceed is a private credit company. It invests in US loans, bonds and reinsurance and pays holders of its digital notes a stated rate, credited every day and redeemable every week",
+    "socials": {
+      "website": "https://www.exceed.finance/",
+      "twitter": "https://x.com/Exceed_Finance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Exceed_Finance",
+      "dns": "exceed.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "exceed-finance-exusdc"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "hawkfi",
+    "name": "HawkFi",
+    "verifiedDomain": "hawkfi.ag",
+    "icon": "https://icons.llamao.fi/icons/protocols/hawkfi",
+    "category": "DeFi",
+    "tags": [
+      "Liquidity Manager",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "HawkFi is the leading analytics & automation platform for on-chain market makers to get the smartest yield on Solana memecoins and ecosystem",
+    "fullAbout": "HawkFi is the leading analytics & automation platform for on-chain market makers to get the smartest yield on Solana memecoins and ecosystem tokens. HawkFi currently automates market making for Meteora DLMM (Dynamic Liquidity Market Making) and Orca CLMM (Concentrated Liquidity Market Making).",
+    "socials": {
+      "website": "https://www.hawkfi.ag/",
+      "twitter": "https://x.com/HawkFi_"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@HawkFi_",
+      "dns": "hawkfi.ag (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "hawkfi"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "tramplinio",
+    "name": "tramplin.io",
+    "verifiedDomain": "tramplin.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/tramplin.io",
+    "category": "DeFi",
+    "tags": [
+      "Staking Pool",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Tramplin is a non-custodial Premium staking platform with verifiable and random rewards distribution. Tramplin is first platform to utilise ",
+    "fullAbout": "Tramplin is a non-custodial Premium staking platform with verifiable and random rewards distribution. Tramplin is first platform to utilise Premium staking, reward algorithm, that redistributes accumulated staking revenue to random users every 10 minutes (regular pool) and once a month (big pool). Results and randomisation proof are published on-chain for full transparency.",
+    "socials": {
+      "website": "https://tramplin.io/",
+      "twitter": "https://x.com/Tramplin_io"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Tramplin_io",
+      "dns": "tramplin.io (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "tramplin.io"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "archer-exchange",
+    "name": "Archer Exchange",
+    "verifiedDomain": "archer.exchange",
+    "icon": "https://icons.llamao.fi/icons/protocols/archer-exchange",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "The global trading engine for crypto, stocks & RWAs on Solana",
+    "fullAbout": "The global trading engine for crypto, stocks & RWAs on Solana",
+    "socials": {
+      "website": "https://archer.exchange",
+      "twitter": "https://x.com/ArcherExchange_"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@ArcherExchange_",
+      "dns": "archer.exchange (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "archer-exchange"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "lavarage",
+    "name": "Lavarage",
+    "verifiedDomain": "lavarage.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/lavarage",
+    "category": "Trading",
+    "tags": [
+      "Derivatives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Lavarage is a decentralized spot margin trading platform that enables leveraged token trading on DEXs, backed by stakers and lenders. While ",
+    "fullAbout": "Lavarage is a decentralized spot margin trading platform that enables leveraged token trading on DEXs, backed by stakers and lenders. While it supports a wide range of assets, Lavarage specializes in providing access to long-tail assets, such as memecoins, offering unique opportunities for traders seeking high-potential markets.",
+    "socials": {
+      "website": "https://lavarage.xyz",
+      "twitter": "https://x.com/Lavaragexyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Lavaragexyz",
+      "dns": "lavarage.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "lavarage"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "bonkswap",
+    "name": "Bonkswap",
+    "verifiedDomain": "bonkswap.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/bonkswap",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Building the Nexus of Degeneracy on Solana",
+    "fullAbout": "Building the Nexus of Degeneracy on Solana",
+    "socials": {
+      "website": "https://bonkswap.io",
+      "twitter": "https://x.com/Bonkswap_io"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@Bonkswap_io",
+      "dns": "bonkswap.io (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "bonkswap"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "omnipair",
+    "name": "Omnipair",
+    "verifiedDomain": "omnipair.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/omnipair",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Permissionless spot and margin trading protocol on Solana.",
+    "fullAbout": "Permissionless spot and margin trading protocol on Solana.",
+    "socials": {
+      "website": "https://www.omnipair.fi/",
+      "twitter": "https://x.com/omnipair"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@omnipair",
+      "dns": "omnipair.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "omnipair"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "nolus-protocol",
+    "name": "Nolus Protocol",
+    "verifiedDomain": "nolus.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/nolus-protocol",
+    "category": "DeFi",
+    "tags": [
+      "Lending",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Nolus Protocol introduces a novel DeFi primitive that delivers an asset-backed margin product combining predictability with risk management.",
+    "fullAbout": "Nolus Protocol introduces a novel DeFi primitive that delivers an asset-backed margin product combining predictability with risk management. By offering fixed interest rates, structured liquidity, and controlled leverage, Nolus redefines how users access and interact with capital in crypto markets. Built for both seasoned users and new participants, the protocol enables confident decision-making in volatile environments—empowering users to capitalize on strategic opportunities while maintaining stability and control.",
+    "socials": {
+      "website": "https://nolus.io/",
+      "twitter": "https://x.com/NolusProtocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@NolusProtocol",
+      "dns": "nolus.io (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "nolus-protocol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "adrastea-lrt",
+    "name": "Adrastea LRT",
+    "verifiedDomain": "app.adrastea.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/adrastea",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Restaking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Restake on Solayer, users funds are locked in an AVS, making their position non-liquid. Adrastea changes that by giving users a liquid token",
+    "fullAbout": "Restake on Solayer, users funds are locked in an AVS, making their position non-liquid. Adrastea changes that by giving users a liquid token (lrtsSOL), allowing the benefits of restaking—like rewards and yields—while gaining liquidity.",
+    "socials": {
+      "website": "https://app.adrastea.fi/liquid-restaking",
+      "twitter": "https://x.com/AdrasteaFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@AdrasteaFinance",
+      "dns": "app.adrastea.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "adrastea-lrt"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "kestrel",
+    "name": "Kestrel",
+    "verifiedDomain": "kestrel.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/kestrel",
+    "category": "DeFi",
+    "tags": [
+      "Onchain Capital Allocator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Kestrel turns DeFi strategies into tokens on Solana. Users deposit an asset, receive a yield-bearing token, and redeem it later at the on-ch",
+    "fullAbout": "Kestrel turns DeFi strategies into tokens on Solana. Users deposit an asset, receive a yield-bearing token, and redeem it later at the on-chain redemption price",
+    "socials": {
+      "website": "https://kestrel.finance",
+      "twitter": "https://x.com/kestrel_fi"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@kestrel_fi",
+      "dns": "kestrel.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "kestrel"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "flipcash",
+    "name": "Flipcash",
+    "verifiedDomain": "flipcash.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/flipcash",
+    "category": "DeFi",
+    "tags": [
+      "Launchpad",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Flipcash lets anyone create a digital currency with guaranteed liquidity from day one. Each currency's fixed 21M supply is sold and bought b",
+    "fullAbout": "Flipcash lets anyone create a digital currency with guaranteed liquidity from day one. Each currency's fixed 21M supply is sold and bought back by the on-chain Reserve Contract along an exponential bonding curve, paid for in USDF.",
+    "socials": {
+      "website": "https://flipcash.com/",
+      "twitter": "https://x.com/flipcash"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@flipcash",
+      "dns": "flipcash.com (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "flipcash"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "zeus-btcsol",
+    "name": "Zeus btcSOL",
+    "verifiedDomain": "app.zeusnetwork.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/zeus-btcsol",
+    "category": "DeFi",
+    "tags": [
+      "Liquid Restaking",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "btcSOL enables Solana token holders to stake their SOL and accumulate BTC daily.",
+    "fullAbout": "btcSOL enables Solana token holders to stake their SOL and accumulate BTC daily.",
+    "socials": {
+      "website": "https://app.zeusnetwork.xyz/",
+      "twitter": "https://x.com/btcsol_co"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@btcsol_co",
+      "dns": "app.zeusnetwork.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "zeus-btcsol"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "loyal-earn",
+    "name": "Loyal Earn",
+    "verifiedDomain": "askloyal.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/loyal-earn",
+    "category": "DeFi",
+    "tags": [
+      "Yield Aggregator",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Loyal Earn is self-custodial USDC yield on Solana. Each user holds funds in their own Squads smart account; automated policies route idle US",
+    "fullAbout": "Loyal Earn is self-custodial USDC yield on Solana. Each user holds funds in their own Squads smart account; automated policies route idle USDC into Kamino Lend under on-chain constraints, without giving up keys or final authority on material actions. The stack is open source, launched and governed through MetaDAO futarchy, with a DAO multisig treasury and protocol fees returned on-chain.",
+    "socials": {
+      "website": "https://askloyal.com",
+      "twitter": "https://x.com/loyal_hq"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@loyal_hq",
+      "dns": "askloyal.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "loyal-earn"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "uncx-network-solana",
+    "name": "UNCX Network Solana",
+    "verifiedDomain": "uncx.network",
+    "icon": "https://icons.llamao.fi/icons/protocols/uncx-network-solana",
+    "category": "DeFi",
+    "tags": [
+      "Token Locker",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Locked Liquidity on Solana.",
+    "fullAbout": "Locked Liquidity on Solana.",
+    "socials": {
+      "website": "https://uncx.network/",
+      "twitter": "https://x.com/UNCX_token"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@UNCX_token",
+      "dns": "uncx.network (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "uncx-network-solana"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "uxd",
+    "name": "UXD",
+    "verifiedDomain": "uxd.fi",
+    "icon": "https://icons.llamao.fi/icons/protocols/uxd",
+    "category": "DeFi",
+    "tags": [
+      "Partially Algorithmic Stablecoin",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Fully collateralized decentralized stablecoin backed by the Asset Liability Management Module",
+    "fullAbout": "Fully collateralized decentralized stablecoin backed by the Asset Liability Management Module",
+    "socials": {
+      "website": "https://uxd.fi/",
+      "twitter": "https://x.com/UXDProtocol"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@UXDProtocol",
+      "dns": "uxd.fi (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "uxd"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "deriverse",
+    "name": "Deriverse",
+    "verifiedDomain": "deriverse.io",
+    "icon": "https://icons.llamao.fi/icons/protocols/deriverse",
+    "category": "DeFi",
+    "tags": [
+      "Dexs",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Deriverse is a self-custodial, fully on-chain Solana DEX for spot and derivatives markets",
+    "fullAbout": "Deriverse is a self-custodial, fully on-chain Solana DEX for spot and derivatives markets",
+    "socials": {
+      "website": "https://deriverse.io",
+      "twitter": "https://x.com/deriverse_io"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@deriverse_io",
+      "dns": "deriverse.io (DeFiLlama verified)",
+      "auditedBy": [
+        "2 Security Audits"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "deriverse"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "umbra-privacy-v2",
+    "name": "Umbra Privacy V2",
+    "verifiedDomain": "umbraprivacy.com",
+    "icon": "https://icons.llamao.fi/icons/protocols/umbra-privacy-v2",
+    "category": "DeFi",
+    "tags": [
+      "Privacy",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Umbra is a privacy layer on Solana. Users shield assets into per-token pools and withdraw them to a different address, breaking the on-chain",
+    "fullAbout": "Umbra is a privacy layer on Solana. Users shield assets into per-token pools and withdraw them to a different address, breaking the on-chain link between deposit and withdrawal.",
+    "socials": {
+      "website": "https://umbraprivacy.com",
+      "twitter": "https://x.com/UmbraPrivacy"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@UmbraPrivacy",
+      "dns": "umbraprivacy.com (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "umbra-privacy-v2"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "true-dex",
+    "name": "TRUE DEX",
+    "verifiedDomain": "app.truefinance.ai",
+    "icon": "https://icons.llamao.fi/icons/protocols/true-dex",
+    "category": "Trading",
+    "tags": [
+      "Derivatives",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "TRUE DEX is a perpetuals exchange on Solana: orders match on a high-throughput sequencer and every block settles on-chain through a ZK verif",
+    "fullAbout": "TRUE DEX is a perpetuals exchange on Solana: orders match on a high-throughput sequencer and every block settles on-chain through a ZK verifier program, so collateral is always held on Solana and every state transition is provable.",
+    "socials": {
+      "website": "https://app.truefinance.ai/perps",
+      "twitter": "https://x.com/truetradingai"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@truetradingai",
+      "dns": "app.truefinance.ai (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "true-dex"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "nysa",
+    "name": "Nysa",
+    "verifiedDomain": "nysa.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/nysa",
+    "category": "DeFi",
+    "tags": [
+      "Risk Curators",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Nysa is the Credit Market Curator built to introduce an Open Standard for Curation: DAO-driven origination, open-source risk management, and",
+    "fullAbout": "Nysa is the Credit Market Curator built to introduce an Open Standard for Curation: DAO-driven origination, open-source risk management, and transparency-first operations. Its first market enables USDC lending against Ondo USDY collateral on Solana, built on Kamino's lending infrastructure",
+    "socials": {
+      "website": "https://nysa.finance/",
+      "twitter": "https://x.com/NysaFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@NysaFinance",
+      "dns": "nysa.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "nysa"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "dual-finance",
+    "name": "Dual Finance",
+    "verifiedDomain": "beta.dual.finance",
+    "icon": "https://icons.llamao.fi/icons/protocols/dual-finance",
+    "category": "Trading",
+    "tags": [
+      "Options",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "Incentive Liquidity Infrastructure. Provides token communities with sustainable ways to generate value & token liquidity from their treasuri",
+    "fullAbout": "Incentive Liquidity Infrastructure. Provides token communities with sustainable ways to generate value & token liquidity from their treasuries. Through liquid option based incentives, tools and services, Dual Finance unleashes participation in decentralized communities",
+    "socials": {
+      "website": "https://beta.dual.finance",
+      "twitter": "https://x.com/DualFinance"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@DualFinance",
+      "dns": "beta.dual.finance (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "dual-finance"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  },
+  {
+    "id": "world",
+    "name": "world",
+    "verifiedDomain": "world.xyz",
+    "icon": "https://icons.llamao.fi/icons/protocols/world",
+    "category": "DeFi",
+    "tags": [
+      "Prediction Market",
+      "Solana",
+      "DeFiLlama Verified"
+    ],
+    "shortDescription": "World is a prediction market on Solana.",
+    "fullAbout": "World is a prediction market on Solana.",
+    "socials": {
+      "website": "https://world.xyz/",
+      "twitter": "https://x.com/world_xyz"
+    },
+    "verificationSignals": {
+      "officialTwitter": "@world_xyz",
+      "dns": "world.xyz (DeFiLlama verified)",
+      "auditedBy": [
+        "DeFiLlama Tracked"
+      ],
+      "verifiedDate": "2026-11-11",
+      "verifiedBy": "DeFiLlama + GhostWallet"
+    },
+    "metricsSourceId": {
+      "defillamaSlug": "world"
+    },
+    "similarAppIds": [
+      "jupiter",
+      "kamino",
+      "raydium"
+    ]
+  }
+]

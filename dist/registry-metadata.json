@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-11-11T16:54:02.427Z",
+  "verifiedAppCount": 163,
+  "blockedDomainCount": 13425,
+  "sources": [
+    "GhostWallet Curated Solana Registry",
+    "DeFiLlama Solana Protocol Index",
+    "Phantom Open-Source Blocklist (phantom/blocklist)",
+    "ScamSniffer Malicious Domain Database (scamsniffer/scam-database)"
+  ]
+}
