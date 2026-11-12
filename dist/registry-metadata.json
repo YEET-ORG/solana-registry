@@ -1,7 +1,8 @@
 {
-  "version": "2.0.0",
-  "lastUpdated": "2026-11-11T16:54:02.427Z",
-  "verifiedAppCount": 163,
+  "version": "2.1.0",
+  "lastUpdated": "2026-11-12T03:00:16.475Z",
+  "verifiedAppCount": 162,
+  "featuredAppCount": 7,
   "blockedDomainCount": 13425,
   "sources": [
     "GhostWallet Curated Solana Registry",

@@ -37,7 +37,9 @@
       "orca",
       "meteora",
       "drift"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 1
   },
   {
     "id": "raydium",
@@ -77,7 +79,9 @@
       "orca",
       "meteora",
       "kamino"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 3
   },
   {
     "id": "orca",
@@ -157,7 +161,9 @@
       "zeta",
       "flash",
       "mango"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 5
   },
   {
     "id": "kamino",
@@ -197,7 +203,9 @@
       "marginfi",
       "marinade",
       "jito"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 4
   },
   {
     "id": "meteora",
@@ -355,7 +363,9 @@
       "marinade",
       "kamino",
       "jupiter"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 6
   },
   {
     "id": "save",
@@ -823,7 +833,9 @@
       "drip",
       "madlads",
       "sharky"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 7
   },
   {
     "id": "tensor",
@@ -943,45 +955,6 @@
     ]
   },
   {
-    "id": "famousfoxes",
-    "name": "Famous Fox Federation",
-    "verifiedDomain": "famousfoxes.com",
-    "icon": "https://famousfoxes.com/favicon.ico",
-    "category": "NFTs",
-    "tags": [
-      "Utility",
-      "Sweeping",
-      "Tools",
-      "Community"
-    ],
-    "shortDescription": "Premier Solana utility ecosystem featuring sweeping, staking, and raffles.",
-    "fullAbout": "The Famous Fox Federation is one of Solana's most prolific builder communities, providing essential NFT tooling including bulk messaging, collection sweeping, burn-for-SOL mechanisms, token raffles, and token locking.",
-    "socials": {
-      "website": "https://famousfoxes.com",
-      "twitter": "https://x.com/FamousFoxFed",
-      "discord": "https://discord.gg/famousfoxes",
-      "telegram": "https://t.me/famousfoxes"
-    },
-    "verificationSignals": {
-      "officialTwitter": "@FamousFoxFed",
-      "dns": "famousfoxes.com (DNSSEC)",
-      "auditedBy": [
-        "Sec3"
-      ],
-      "verifiedDate": "2024-01-20",
-      "verifiedBy": "GhostWallet"
-    },
-    "metricsSourceId": {
-      "defillamaSlug": "famous-foxes"
-    },
-    "similarAppIds": [
-      "citrus",
-      "tensor",
-      "magiceden",
-      "madlads"
-    ]
-  },
-  {
     "id": "citrus",
     "name": "Citrus",
     "verifiedDomain": "famousfoxes.com",
@@ -1096,7 +1069,9 @@
       "photon",
       "moonshot",
       "bullx"
-    ]
+    ],
+    "featured": true,
+    "featuredOrder": 2
   },
   {
     "id": "gmgn",

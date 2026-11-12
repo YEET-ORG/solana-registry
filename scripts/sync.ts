@@ -48,6 +48,8 @@ interface VerifiedApp {
   readonly verificationSignals: VerificationSignals;
   readonly metricsSourceId?: AppMetricsSourceId;
   readonly similarAppIds: readonly string[];
+  readonly featured?: boolean;
+  readonly featuredOrder?: number;
 }
 
 function extractCanonicalHost(domainOrUrl: string): string {
@@ -73,8 +75,10 @@ async function fetchWithTimeout(url: string, timeoutMs = 15000): Promise<Respons
 async function main() {
   console.log("🚀 Starting Solana Registry Synchronization...");
 
-  const dataDir = resolve(process.cwd(), "src/features/browser/data");
-  const existingAppsPath = resolve(dataDir, "verified-apps.json");
+  const distDir = existsSync(resolve(process.cwd(), "dist"))
+    ? resolve(process.cwd(), "dist")
+    : resolve(process.cwd(), "src/features/browser/data");
+  const existingAppsPath = resolve(distDir, "verified-apps.json");
   const existingApps: VerifiedApp[] = existsSync(existingAppsPath)
     ? JSON.parse(readFileSync(existingAppsPath, "utf-8"))
     : [];
@@ -294,20 +298,55 @@ async function main() {
   console.log(`🛡️ Total unique blocked domains compiled: ${sortedBlockedDomains.length}`);
 
   // ==========================================
-  // 4. Write Files
+  // 4. Featured Apps Curation & Stamping
   // ==========================================
-  writeFileSync(existingAppsPath, JSON.stringify(finalApps, null, 2) + "\n", "utf-8");
+  const defaultFeaturedIds = [
+    "jupiter",
+    "pumpfun",
+    "raydium",
+    "kamino",
+    "drift",
+    "sanctum",
+    "magiceden",
+  ];
+  const featuredConfigPath = resolve(process.cwd(), "data/featured-apps.json");
+  const featuredIds: string[] = existsSync(featuredConfigPath)
+    ? JSON.parse(readFileSync(featuredConfigPath, "utf-8"))
+    : defaultFeaturedIds;
+
+  const featuredRankMap = new Map(featuredIds.map((id, index) => [id, index + 1]));
+  const finalAppsWithFeatured = finalApps.map((app) => {
+    const order = featuredRankMap.get(app.id);
+    if (order !== undefined) {
+      return {
+        ...app,
+        featured: true,
+        featuredOrder: order,
+      };
+    }
+    return app;
+  });
+
+  // ==========================================
+  // 5. Write Files
+  // ==========================================
+  writeFileSync(existingAppsPath, JSON.stringify(finalAppsWithFeatured, null, 2) + "\n", "utf-8");
   console.log(`💾 Saved verified apps to ${existingAppsPath}`);
 
-  const blockedPath = resolve(dataDir, "blocked-domains.json");
+  const featuredPath = resolve(distDir, "featured-apps.json");
+  writeFileSync(featuredPath, JSON.stringify(featuredIds, null, 2) + "\n", "utf-8");
+  console.log(`💾 Saved featured apps sequence to ${featuredPath}`);
+
+  const blockedPath = resolve(distDir, "blocked-domains.json");
   writeFileSync(blockedPath, JSON.stringify(sortedBlockedDomains, null, 2) + "\n", "utf-8");
   console.log(`💾 Saved blocked domains to ${blockedPath}`);
 
-  const metadataPath = resolve(dataDir, "registry-metadata.json");
+  const metadataPath = resolve(distDir, "registry-metadata.json");
   const metadata = {
-    version: "2.0.0",
+    version: "2.1.0",
     lastUpdated: new Date().toISOString(),
-    verifiedAppCount: finalApps.length,
+    verifiedAppCount: finalAppsWithFeatured.length,
+    featuredAppCount: featuredIds.length,
     blockedDomainCount: sortedBlockedDomains.length,
     sources: [
       "GhostWallet Curated Solana Registry",
