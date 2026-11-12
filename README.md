@@ -12,6 +12,7 @@ Public, automated Solana Verified dApps & Threat Intelligence Registry for Ghost
 - **GitHub Pages CDN**: `https://yeet-org.github.io/solana-registry/verified-apps.json`
 - **GitHub Raw CDN**: `https://raw.githubusercontent.com/YEET-ORG/solana-registry/main/dist/verified-apps.json`
 - **Blocked Threat Domains**: `https://raw.githubusercontent.com/YEET-ORG/solana-registry/main/dist/blocked-domains.json`
+- **Staking & LST Registry**: `https://raw.githubusercontent.com/YEET-ORG/solana-registry/main/dist/staking-registry.json`
 
 ## Automation
 A GitHub Actions runner updates this repository every 6 hours (`.github/workflows/sync.yml`).

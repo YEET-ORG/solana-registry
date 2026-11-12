@@ -328,7 +328,19 @@ async function main() {
   });
 
   // ==========================================
-  // 5. Write Files
+  // 5. Staking Protocols Curation
+  // ==========================================
+  const stakingConfigPath = resolve(process.cwd(), "data/staking-protocols.json");
+  const stakingProtocols = existsSync(stakingConfigPath)
+    ? JSON.parse(readFileSync(stakingConfigPath, "utf-8"))
+    : [];
+
+  const stakingDistPath = resolve(distDir, "staking-registry.json");
+  writeFileSync(stakingDistPath, JSON.stringify(stakingProtocols, null, 2) + "\n", "utf-8");
+  console.log(`💾 Saved staking registry (${stakingProtocols.length} protocols) to ${stakingDistPath}`);
+
+  // ==========================================
+  // 6. Write Files
   // ==========================================
   writeFileSync(existingAppsPath, JSON.stringify(finalAppsWithFeatured, null, 2) + "\n", "utf-8");
   console.log(`💾 Saved verified apps to ${existingAppsPath}`);
@@ -343,13 +355,15 @@ async function main() {
 
   const metadataPath = resolve(distDir, "registry-metadata.json");
   const metadata = {
-    version: "2.1.0",
+    version: "2.2.0",
     lastUpdated: new Date().toISOString(),
     verifiedAppCount: finalAppsWithFeatured.length,
     featuredAppCount: featuredIds.length,
     blockedDomainCount: sortedBlockedDomains.length,
+    stakingProtocolCount: stakingProtocols.length,
     sources: [
       "GhostWallet Curated Solana Registry",
+      "Solana Verified Liquid & Native Staking Protocols",
       "DeFiLlama Solana Protocol Index",
       "Phantom Open-Source Blocklist (phantom/blocklist)",
       "ScamSniffer Malicious Domain Database (scamsniffer/scam-database)",
