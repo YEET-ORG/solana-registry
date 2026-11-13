@@ -566,7 +566,12 @@
       "jupiter",
       "zeta",
       "flash"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "phoenix-perps-v1",
+      "enabled": true
+    }
   },
   {
     "id": "zeta",

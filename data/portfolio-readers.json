@@ -86,5 +86,13 @@
       "reader": "jupiter-lend-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "phoenix",
+    "portfolio": {
+      "version": 1,
+      "reader": "phoenix-perps-v1",
+      "enabled": true
+    }
   }
 ]
