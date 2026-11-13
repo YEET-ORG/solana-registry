@@ -39,7 +39,12 @@
       "drift"
     ],
     "featured": true,
-    "featuredOrder": 1
+    "featuredOrder": 1,
+    "portfolio": {
+      "version": 1,
+      "reader": "jupiter-lend-v1",
+      "enabled": true
+    }
   },
   {
     "id": "raydium",

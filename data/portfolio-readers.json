@@ -78,5 +78,13 @@
       "reader": "jito-vault-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "jupiter",
+    "portfolio": {
+      "version": 1,
+      "reader": "jupiter-lend-v1",
+      "enabled": true
+    }
   }
 ]
