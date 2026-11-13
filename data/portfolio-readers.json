@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kamino",
+    "portfolio": {
+      "version": 1,
+      "reader": "kamino-lending-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "meteora",
+    "portfolio": {
+      "version": 1,
+      "reader": "meteora-dlmm-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "drift",
+    "portfolio": {
+      "version": 1,
+      "reader": "drift-data-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "raydium",
+    "portfolio": {
+      "version": 1,
+      "reader": "raydium-owner-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "orca",
+    "portfolio": {
+      "version": 1,
+      "reader": "orca-whirlpool-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "marginfi",
+    "portfolio": {
+      "version": 1,
+      "reader": "marginfi-lending-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "save",
+    "portfolio": {
+      "version": 1,
+      "reader": "save-lending-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "streamflow",
+    "portfolio": {
+      "version": 1,
+      "reader": "streamflow-vesting-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "lulo",
+    "portfolio": {
+      "version": 1,
+      "reader": "lulo-account-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "jito",
+    "portfolio": {
+      "version": 1,
+      "reader": "jito-vault-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "jupiter",
+    "portfolio": {
+      "version": 1,
+      "reader": "jupiter-lend-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "phoenix",
+    "portfolio": {
+      "version": 1,
+      "reader": "phoenix-perps-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "mango",
+    "portfolio": {
+      "version": 1,
+      "reader": "mango-account-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "parcl",
+    "portfolio": {
+      "version": 1,
+      "reader": "parcl-margin-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "zeta",
+    "portfolio": {
+      "version": 1,
+      "reader": "zeta-perps-v1",
+      "enabled": true
+    }
+  }
+]

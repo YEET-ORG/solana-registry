@@ -15,6 +15,7 @@
 
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
+import { validatePortfolioConfig, type PortfolioConfig } from "./portfolio-config";
 
 interface VerifiedAppSocials {
   readonly website?: string;
@@ -47,6 +48,7 @@ interface VerifiedApp {
   readonly socials: VerifiedAppSocials;
   readonly verificationSignals: VerificationSignals;
   readonly metricsSourceId?: AppMetricsSourceId;
+  readonly portfolio?: PortfolioConfig;
   readonly similarAppIds: readonly string[];
   readonly featured?: boolean;
   readonly featuredOrder?: number;
@@ -94,11 +96,13 @@ async function main() {
 
   for (const app of existingApps) {
     const host = extractCanonicalHost(app.verifiedDomain);
-    appMap.set(host, app);
-    if (app.socials?.website) {
-      appMap.set(extractCanonicalHost(app.socials.website), app);
+    const portfolio = validatePortfolioConfig(app.portfolio, app.id, host);
+    const validatedApp = portfolio ? { ...app, portfolio } : app;
+    appMap.set(host, validatedApp);
+    if (validatedApp.socials?.website) {
+      appMap.set(extractCanonicalHost(validatedApp.socials.website), validatedApp);
     }
-    rootDomainMap.set(getRootDomain(host), app);
+    rootDomainMap.set(getRootDomain(host), validatedApp);
   }
   console.log(`📦 Loaded ${existingApps.length} base curated apps`);
 
@@ -183,7 +187,28 @@ async function main() {
   }
 
   const finalApps = Array.from(new Map(Array.from(appMap.values()).map((a) => [a.id, a])).values());
-  console.log(`🌟 Total verified apps compiled: ${finalApps.length}`);
+  const portfolioReadersPath = resolve(process.cwd(), "data/portfolio-readers.json");
+  const portfolioReaders: unknown = existsSync(portfolioReadersPath)
+    ? JSON.parse(readFileSync(portfolioReadersPath, "utf-8"))
+    : [];
+  if (!Array.isArray(portfolioReaders)) throw new Error("Portfolio reader source must be an array");
+  const appsById = new Map(finalApps.map((app) => [app.id, app]));
+  const readerConfigs = new Map<string, PortfolioConfig>();
+  for (const rawEntry of portfolioReaders) {
+    if (!rawEntry || typeof rawEntry !== "object" || Array.isArray(rawEntry)) throw new Error("Invalid portfolio reader source entry");
+    const entry = rawEntry as Record<string, unknown>;
+    if (typeof entry.id !== "string" || readerConfigs.has(entry.id)) throw new Error("Invalid or duplicate portfolio reader id");
+    const app = appsById.get(entry.id);
+    if (!app) throw new Error(`Portfolio reader references unknown verified app: ${entry.id}`);
+    const portfolio = validatePortfolioConfig(entry.portfolio, app.id, extractCanonicalHost(app.verifiedDomain));
+    if (!portfolio) throw new Error(`Portfolio reader config missing for ${entry.id}`);
+    readerConfigs.set(entry.id, portfolio);
+  }
+  const finalAppsWithPortfolio = finalApps.map((app) => {
+    const portfolio = readerConfigs.get(app.id) ?? app.portfolio;
+    return portfolio ? { ...app, portfolio } : app;
+  });
+  console.log(`🌟 Total verified apps compiled: ${finalAppsWithPortfolio.length}`);
 
   // ==========================================
   // 2. Fetch & Ingest Phantom Blocklist + Whitelist
@@ -315,7 +340,7 @@ async function main() {
     : defaultFeaturedIds;
 
   const featuredRankMap = new Map(featuredIds.map((id, index) => [id, index + 1]));
-  const finalAppsWithFeatured = finalApps.map((app) => {
+  const finalAppsWithFeatured = finalAppsWithPortfolio.map((app) => {
     const order = featuredRankMap.get(app.id);
     if (order !== undefined) {
       return {

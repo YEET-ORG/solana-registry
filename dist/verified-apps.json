@@ -39,7 +39,12 @@
       "drift"
     ],
     "featured": true,
-    "featuredOrder": 1
+    "featuredOrder": 1,
+    "portfolio": {
+      "version": 1,
+      "reader": "jupiter-lend-v1",
+      "enabled": true
+    }
   },
   {
     "id": "raydium",
@@ -81,7 +86,12 @@
       "kamino"
     ],
     "featured": true,
-    "featuredOrder": 3
+    "featuredOrder": 3,
+    "portfolio": {
+      "version": 1,
+      "reader": "raydium-owner-v1",
+      "enabled": true
+    }
   },
   {
     "id": "orca",
@@ -121,7 +131,12 @@
       "raydium",
       "meteora",
       "kamino"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "orca-whirlpool-v1",
+      "enabled": true
+    }
   },
   {
     "id": "drift",
@@ -163,7 +178,12 @@
       "mango"
     ],
     "featured": true,
-    "featuredOrder": 5
+    "featuredOrder": 5,
+    "portfolio": {
+      "version": 1,
+      "reader": "drift-data-v1",
+      "enabled": true
+    }
   },
   {
     "id": "kamino",
@@ -205,7 +225,12 @@
       "jito"
     ],
     "featured": true,
-    "featuredOrder": 4
+    "featuredOrder": 4,
+    "portfolio": {
+      "version": 1,
+      "reader": "kamino-lending-v1",
+      "enabled": true
+    }
   },
   {
     "id": "meteora",
@@ -245,7 +270,12 @@
       "orca",
       "raydium",
       "kamino"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "meteora-dlmm-v1",
+      "enabled": true
+    }
   },
   {
     "id": "marinade",
@@ -324,7 +354,12 @@
       "sanctum",
       "kamino",
       "save"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "jito-vault-v1",
+      "enabled": true
+    }
   },
   {
     "id": "sanctum",
@@ -404,7 +439,12 @@
       "marginfi",
       "drift",
       "marinade"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "save-lending-v1",
+      "enabled": true
+    }
   },
   {
     "id": "marginfi",
@@ -443,7 +483,12 @@
       "save",
       "drift",
       "jito"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "marginfi-lending-v1",
+      "enabled": true
+    }
   },
   {
     "id": "lifinity",
@@ -521,7 +566,12 @@
       "jupiter",
       "zeta",
       "flash"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "phoenix-perps-v1",
+      "enabled": true
+    }
   },
   {
     "id": "zeta",
@@ -560,7 +610,12 @@
       "flash",
       "phoenix",
       "mango"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "zeta-perps-v1",
+      "enabled": true
+    }
   },
   {
     "id": "mango",
@@ -599,7 +654,12 @@
       "zeta",
       "save",
       "kamino"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "mango-account-v1",
+      "enabled": true
+    }
   },
   {
     "id": "flash",
@@ -677,7 +737,12 @@
       "jupiter",
       "zeta",
       "flash"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "parcl-margin-v1",
+      "enabled": true
+    }
   },
   {
     "id": "backpack",
@@ -3366,7 +3431,12 @@
       "jupiter",
       "kamino",
       "raydium"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "lulo-account-v1",
+      "enabled": true
+    }
   },
   {
     "id": "adrastea-validator",
@@ -3819,7 +3889,12 @@
       "jupiter",
       "kamino",
       "raydium"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "streamflow-vesting-v1",
+      "enabled": true
+    }
   },
   {
     "id": "byreal",

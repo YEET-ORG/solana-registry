@@ -1,0 +1,53 @@
+export type PortfolioReader = "kamino-lending-v1" | "meteora-dlmm-v1" | "drift-data-v1" | "raydium-owner-v1" | "orca-whirlpool-v1" | "marginfi-lending-v1" | "save-lending-v1" | "streamflow-vesting-v1" | "lulo-account-v1" | "jito-vault-v1" | "jupiter-lend-v1" | "phoenix-perps-v1" | "mango-account-v1" | "parcl-margin-v1" | "zeta-perps-v1" | "canonical-v1";
+export type PortfolioConfig = {
+  readonly version: 1;
+  readonly reader: PortfolioReader;
+  readonly enabled: boolean;
+  readonly endpoint?: string;
+};
+
+function object(raw: unknown): Record<string, unknown> {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) throw new Error("Invalid portfolio config");
+  return raw as Record<string, unknown>;
+}
+
+function verifiedEndpoint(raw: unknown, domain: string): string {
+  if (typeof raw !== "string" || raw.length > 300) throw new Error("Canonical reader endpoint required");
+  let url: URL;
+  try { url = new URL(raw); } catch { throw new Error("Invalid canonical reader endpoint"); }
+  if (url.protocol !== "https:" || url.username || url.password || url.port || url.hash ||
+      !(url.hostname === domain || url.hostname.endsWith(`.${domain}`))) throw new Error("Canonical reader endpoint must use the verified app domain");
+  return url.href;
+}
+
+/** Validate registry metadata consumed by fixed, audited readers; it never configures executable code. */
+export function validatePortfolioConfig(raw: unknown, id: string, verifiedDomain: string): PortfolioConfig | undefined {
+  if (raw === undefined) return undefined;
+  const config = object(raw);
+  if (Object.keys(config).some((key) => !["version", "reader", "enabled", "endpoint"].includes(key)) ||
+      config.version !== 1 || typeof config.enabled !== "boolean" ||
+      !["kamino-lending-v1", "meteora-dlmm-v1", "drift-data-v1", "raydium-owner-v1", "orca-whirlpool-v1", "marginfi-lending-v1", "save-lending-v1", "streamflow-vesting-v1", "lulo-account-v1", "jito-vault-v1", "jupiter-lend-v1", "phoenix-perps-v1", "mango-account-v1", "parcl-margin-v1", "zeta-perps-v1", "canonical-v1"].includes(String(config.reader))) {
+    throw new Error(`Invalid portfolio reader config for ${id}`);
+  }
+  const reader = config.reader as PortfolioReader;
+  if (reader === "kamino-lending-v1" && id !== "kamino" && id !== "kamino-lend") throw new Error("Kamino reader identity mismatch");
+  if (reader === "meteora-dlmm-v1" && id !== "meteora") throw new Error("Meteora reader identity mismatch");
+  if (reader === "drift-data-v1" && id !== "drift") throw new Error("Drift reader identity mismatch");
+  if (reader === "raydium-owner-v1" && id !== "raydium") throw new Error("Raydium reader identity mismatch");
+  if (reader === "orca-whirlpool-v1" && id !== "orca") throw new Error("Orca reader identity mismatch");
+  if (reader === "marginfi-lending-v1" && id !== "marginfi") throw new Error("Marginfi reader identity mismatch");
+  if (reader === "save-lending-v1" && id !== "save") throw new Error("Save reader identity mismatch");
+  if (reader === "streamflow-vesting-v1" && id !== "streamflow") throw new Error("Streamflow reader identity mismatch");
+  if (reader === "lulo-account-v1" && id !== "lulo") throw new Error("Lulo reader identity mismatch");
+  if (reader === "jito-vault-v1" && id !== "jito") throw new Error("Jito reader identity mismatch");
+  if (reader === "jupiter-lend-v1" && id !== "jupiter") throw new Error("Jupiter reader identity mismatch");
+  if (reader === "phoenix-perps-v1" && id !== "phoenix") throw new Error("Phoenix reader identity mismatch");
+  if (reader === "mango-account-v1" && id !== "mango") throw new Error("Mango reader identity mismatch");
+  if (reader === "parcl-margin-v1" && id !== "parcl") throw new Error("Parcl reader identity mismatch");
+  if (reader === "zeta-perps-v1" && id !== "zeta") throw new Error("Zeta reader identity mismatch");
+  if (reader === "canonical-v1") {
+    return { version: 1, reader, enabled: config.enabled, endpoint: verifiedEndpoint(config.endpoint, verifiedDomain.toLowerCase()) };
+  }
+  if (config.endpoint !== undefined) throw new Error("Built-in readers do not accept endpoint overrides");
+  return { version: 1, reader, enabled: config.enabled };
+}
