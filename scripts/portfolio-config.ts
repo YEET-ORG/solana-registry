@@ -1,4 +1,4 @@
-export type PortfolioReader = "kamino-lending-v1" | "meteora-dlmm-v1" | "drift-data-v1" | "raydium-owner-v1" | "orca-whirlpool-v1" | "marginfi-lending-v1" | "save-lending-v1" | "streamflow-vesting-v1" | "canonical-v1";
+export type PortfolioReader = "kamino-lending-v1" | "meteora-dlmm-v1" | "drift-data-v1" | "raydium-owner-v1" | "orca-whirlpool-v1" | "marginfi-lending-v1" | "save-lending-v1" | "streamflow-vesting-v1" | "lulo-account-v1" | "canonical-v1";
 export type PortfolioConfig = {
   readonly version: 1;
   readonly reader: PortfolioReader;
@@ -26,7 +26,7 @@ export function validatePortfolioConfig(raw: unknown, id: string, verifiedDomain
   const config = object(raw);
   if (Object.keys(config).some((key) => !["version", "reader", "enabled", "endpoint"].includes(key)) ||
       config.version !== 1 || typeof config.enabled !== "boolean" ||
-      !["kamino-lending-v1", "meteora-dlmm-v1", "drift-data-v1", "raydium-owner-v1", "orca-whirlpool-v1", "marginfi-lending-v1", "save-lending-v1", "streamflow-vesting-v1", "canonical-v1"].includes(String(config.reader))) {
+      !["kamino-lending-v1", "meteora-dlmm-v1", "drift-data-v1", "raydium-owner-v1", "orca-whirlpool-v1", "marginfi-lending-v1", "save-lending-v1", "streamflow-vesting-v1", "lulo-account-v1", "canonical-v1"].includes(String(config.reader))) {
     throw new Error(`Invalid portfolio reader config for ${id}`);
   }
   const reader = config.reader as PortfolioReader;
@@ -38,6 +38,7 @@ export function validatePortfolioConfig(raw: unknown, id: string, verifiedDomain
   if (reader === "marginfi-lending-v1" && id !== "marginfi") throw new Error("Marginfi reader identity mismatch");
   if (reader === "save-lending-v1" && id !== "save") throw new Error("Save reader identity mismatch");
   if (reader === "streamflow-vesting-v1" && id !== "streamflow") throw new Error("Streamflow reader identity mismatch");
+  if (reader === "lulo-account-v1" && id !== "lulo") throw new Error("Lulo reader identity mismatch");
   if (reader === "canonical-v1") {
     return { version: 1, reader, enabled: config.enabled, endpoint: verifiedEndpoint(config.endpoint, verifiedDomain.toLowerCase()) };
   }
