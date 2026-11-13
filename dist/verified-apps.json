@@ -649,7 +649,12 @@
       "zeta",
       "save",
       "kamino"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "mango-account-v1",
+      "enabled": true
+    }
   },
   {
     "id": "flash",

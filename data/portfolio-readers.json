@@ -94,5 +94,13 @@
       "reader": "phoenix-perps-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "mango",
+    "portfolio": {
+      "version": 1,
+      "reader": "mango-account-v1",
+      "enabled": true
+    }
   }
 ]
