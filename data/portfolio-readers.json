@@ -70,5 +70,13 @@
       "reader": "lulo-account-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "jito",
+    "portfolio": {
+      "version": 1,
+      "reader": "jito-vault-v1",
+      "enabled": true
+    }
   }
 ]

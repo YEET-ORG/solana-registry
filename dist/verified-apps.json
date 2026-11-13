@@ -349,7 +349,12 @@
       "sanctum",
       "kamino",
       "save"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "jito-vault-v1",
+      "enabled": true
+    }
   },
   {
     "id": "sanctum",
