@@ -81,7 +81,12 @@
       "kamino"
     ],
     "featured": true,
-    "featuredOrder": 3
+    "featuredOrder": 3,
+    "portfolio": {
+      "version": 1,
+      "reader": "raydium-owner-v1",
+      "enabled": true
+    }
   },
   {
     "id": "orca",
@@ -121,7 +126,12 @@
       "raydium",
       "meteora",
       "kamino"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "orca-whirlpool-v1",
+      "enabled": true
+    }
   },
   {
     "id": "drift",
@@ -163,7 +173,12 @@
       "mango"
     ],
     "featured": true,
-    "featuredOrder": 5
+    "featuredOrder": 5,
+    "portfolio": {
+      "version": 1,
+      "reader": "drift-data-v1",
+      "enabled": true
+    }
   },
   {
     "id": "kamino",
@@ -414,7 +429,12 @@
       "marginfi",
       "drift",
       "marinade"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "save-lending-v1",
+      "enabled": true
+    }
   },
   {
     "id": "marginfi",
@@ -453,7 +473,12 @@
       "save",
       "drift",
       "jito"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "marginfi-lending-v1",
+      "enabled": true
+    }
   },
   {
     "id": "lifinity",

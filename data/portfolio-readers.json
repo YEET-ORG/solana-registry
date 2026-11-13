@@ -14,5 +14,45 @@
       "reader": "meteora-dlmm-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "drift",
+    "portfolio": {
+      "version": 1,
+      "reader": "drift-data-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "raydium",
+    "portfolio": {
+      "version": 1,
+      "reader": "raydium-owner-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "orca",
+    "portfolio": {
+      "version": 1,
+      "reader": "orca-whirlpool-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "marginfi",
+    "portfolio": {
+      "version": 1,
+      "reader": "marginfi-lending-v1",
+      "enabled": true
+    }
+  },
+  {
+    "id": "save",
+    "portfolio": {
+      "version": 1,
+      "reader": "save-lending-v1",
+      "enabled": true
+    }
   }
 ]
