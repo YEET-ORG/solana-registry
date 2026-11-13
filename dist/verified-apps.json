@@ -610,7 +610,12 @@
       "flash",
       "phoenix",
       "mango"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "zeta-perps-v1",
+      "enabled": true
+    }
   },
   {
     "id": "mango",

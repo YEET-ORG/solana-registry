@@ -110,5 +110,13 @@
       "reader": "parcl-margin-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "zeta",
+    "portfolio": {
+      "version": 1,
+      "reader": "zeta-perps-v1",
+      "enabled": true
+    }
   }
 ]
