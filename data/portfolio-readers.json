@@ -102,5 +102,13 @@
       "reader": "mango-account-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "parcl",
+    "portfolio": {
+      "version": 1,
+      "reader": "parcl-margin-v1",
+      "enabled": true
+    }
   }
 ]

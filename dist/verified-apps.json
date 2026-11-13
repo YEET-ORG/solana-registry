@@ -732,7 +732,12 @@
       "jupiter",
       "zeta",
       "flash"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "parcl-margin-v1",
+      "enabled": true
+    }
   },
   {
     "id": "backpack",
