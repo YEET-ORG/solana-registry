@@ -205,7 +205,12 @@
       "jito"
     ],
     "featured": true,
-    "featuredOrder": 4
+    "featuredOrder": 4,
+    "portfolio": {
+      "version": 1,
+      "reader": "kamino-lending-v1",
+      "enabled": true
+    }
   },
   {
     "id": "meteora",
@@ -245,7 +250,12 @@
       "orca",
       "raydium",
       "kamino"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "meteora-dlmm-v1",
+      "enabled": true
+    }
   },
   {
     "id": "marinade",
