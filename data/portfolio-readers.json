@@ -54,5 +54,13 @@
       "reader": "save-lending-v1",
       "enabled": true
     }
+  },
+  {
+    "id": "streamflow",
+    "portfolio": {
+      "version": 1,
+      "reader": "streamflow-vesting-v1",
+      "enabled": true
+    }
   }
 ]

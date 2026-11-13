@@ -3854,7 +3854,12 @@
       "jupiter",
       "kamino",
       "raydium"
-    ]
+    ],
+    "portfolio": {
+      "version": 1,
+      "reader": "streamflow-vesting-v1",
+      "enabled": true
+    }
   },
   {
     "id": "byreal",
